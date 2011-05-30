@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/15008/django/trunk/tests/regressiontests/views/templates/debug
+END
+render_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/15008/django/trunk/tests/regressiontests/views/templates/debug/render_test.html
+END
+template_exception.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12726/django/trunk/tests/regressiontests/views/templates/debug/template_exception.html
+END

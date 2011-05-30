@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/16163/django/trunk/tests/modeltests/validation
+END
+validators.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/14139/django/trunk/tests/modeltests/validation/validators.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/15728/django/trunk/tests/modeltests/validation/__init__.py
+END
+test_custom_messages.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12206/django/trunk/tests/modeltests/validation/test_custom_messages.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/16163/django/trunk/tests/modeltests/validation/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/15167/django/trunk/tests/modeltests/validation/models.py
+END
+test_unique.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/15167/django/trunk/tests/modeltests/validation/test_unique.py
+END

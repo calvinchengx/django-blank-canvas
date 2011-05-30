@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/14901/django/trunk/tests/regressiontests/views/app0/locale/en/LC_MESSAGES
+END
+djangojs.mo
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/14901/django/trunk/tests/regressiontests/views/app0/locale/en/LC_MESSAGES/djangojs.mo
+END
+djangojs.po
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/14901/django/trunk/tests/regressiontests/views/app0/locale/en/LC_MESSAGES/djangojs.po
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/16138/django/trunk/django/contrib/flatpages/templatetags
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/13654/django/trunk/django/contrib/flatpages/templatetags/__init__.py
+END
+flatpages.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/16138/django/trunk/django/contrib/flatpages/templatetags/flatpages.py
+END

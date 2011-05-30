@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12725/django/trunk/tests/regressiontests/views/templatetags
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12725/django/trunk/tests/regressiontests/views/templatetags/__init__.py
+END
+debugtags.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12725/django/trunk/tests/regressiontests/views/templatetags/debugtags.py
+END

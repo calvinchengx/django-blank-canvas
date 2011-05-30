@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/15728/django/trunk/tests/regressiontests/multiple_database
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11952/django/trunk/tests/regressiontests/multiple_database/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/15728/django/trunk/tests/regressiontests/multiple_database/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/14389/django/trunk/tests/regressiontests/multiple_database/models.py
+END

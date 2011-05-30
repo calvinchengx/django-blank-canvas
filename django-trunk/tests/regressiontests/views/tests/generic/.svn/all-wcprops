@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/16000/django/trunk/tests/regressiontests/views/tests/generic
+END
+simple.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/16000/django/trunk/tests/regressiontests/views/tests/generic/simple.py
+END
+date_based.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/16000/django/trunk/tests/regressiontests/views/tests/generic/date_based.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/7294/django/trunk/tests/regressiontests/views/tests/generic/__init__.py
+END
+object_list.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/16000/django/trunk/tests/regressiontests/views/tests/generic/object_list.py
+END
+create_update.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/16000/django/trunk/tests/regressiontests/views/tests/generic/create_update.py
+END

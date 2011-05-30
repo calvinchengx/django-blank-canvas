@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/15990/django/trunk/django/contrib/auth/fixtures
+END
+context-processors-users.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/15990/django/trunk/django/contrib/auth/fixtures/context-processors-users.xml
+END
+authtestdata.json
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7808/django/trunk/django/contrib/auth/fixtures/authtestdata.json
+END
+permissionstestdata.json
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/14891/django/trunk/django/contrib/auth/fixtures/permissionstestdata.json
+END

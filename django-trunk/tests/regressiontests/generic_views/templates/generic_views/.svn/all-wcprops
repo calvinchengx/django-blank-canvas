@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/15295/django/trunk/tests/regressiontests/generic_views/templates/generic_views
+END
+book_detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/book_detail.html
+END
+confirm_delete.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/confirm_delete.html
+END
+apple_detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/apple_detail.html
+END
+author_detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/author_detail.html
+END
+author_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/author_form.html
+END
+book_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/book_list.html
+END
+book_archive_day.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/book_archive_day.html
+END
+artist_detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/artist_detail.html
+END
+artist_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/artist_form.html
+END
+book_archive.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/book_archive.html
+END
+author_view.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/author_view.html
+END
+author_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/author_list.html
+END
+book_archive_month.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/book_archive_month.html
+END
+author_confirm_delete.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/author_confirm_delete.html
+END
+detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/detail.html
+END
+form.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/form.html
+END
+book_archive_week.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/book_archive_week.html
+END
+page_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/page_template.html
+END
+about.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/15295/django/trunk/tests/regressiontests/generic_views/templates/generic_views/about.html
+END
+book_archive_year.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/book_archive_year.html
+END
+author_objects.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/author_objects.html
+END
+list.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/14254/django/trunk/tests/regressiontests/generic_views/templates/generic_views/list.html
+END

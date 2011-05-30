@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/16237/django/trunk/tests/regressiontests/mail
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7975/django/trunk/tests/regressiontests/mail/__init__.py
+END
+custombackend.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/11709/django/trunk/tests/regressiontests/mail/custombackend.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/16237/django/trunk/tests/regressiontests/mail/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7975/django/trunk/tests/regressiontests/mail/models.py
+END

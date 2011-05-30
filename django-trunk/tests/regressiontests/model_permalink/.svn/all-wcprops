@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/15798/django/trunk/tests/regressiontests/model_permalink
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/15798/django/trunk/tests/regressiontests/model_permalink/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/15798/django/trunk/tests/regressiontests/model_permalink/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/15798/django/trunk/tests/regressiontests/model_permalink/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/15798/django/trunk/tests/regressiontests/model_permalink/urls.py
+END

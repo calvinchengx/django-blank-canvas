@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/15878/django/trunk/tests/regressiontests/staticfiles_tests/project/documents/test
+END
+camelCase.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/15878/django/trunk/tests/regressiontests/staticfiles_tests/project/documents/test/camelCase.txt
+END
+file.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/14293/django/trunk/tests/regressiontests/staticfiles_tests/project/documents/test/file.txt
+END

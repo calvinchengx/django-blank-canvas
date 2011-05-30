@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/15999/django/trunk/tests/regressiontests/middleware_exceptions
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/14850/django/trunk/tests/regressiontests/middleware_exceptions/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/12170/django/trunk/tests/regressiontests/middleware_exceptions/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/15999/django/trunk/tests/regressiontests/middleware_exceptions/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12165/django/trunk/tests/regressiontests/middleware_exceptions/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/15999/django/trunk/tests/regressiontests/middleware_exceptions/urls.py
+END

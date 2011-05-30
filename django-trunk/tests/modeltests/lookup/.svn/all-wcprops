@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/15922/django/trunk/tests/modeltests/lookup
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5876/django/trunk/tests/modeltests/lookup/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/15922/django/trunk/tests/modeltests/lookup/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/14655/django/trunk/tests/modeltests/lookup/models.py
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/16274/django/trunk/django/contrib/admin
+END
+filters.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16171/django/trunk/django/contrib/admin/filters.py
+END
+validation.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/16274/django/trunk/django/contrib/admin/validation.py
+END
+options.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16162/django/trunk/django/contrib/admin/options.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/15719/django/trunk/django/contrib/admin/util.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/16144/django/trunk/django/contrib/admin/__init__.py
+END
+actions.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16087/django/trunk/django/contrib/admin/actions.py
+END
+helpers.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16069/django/trunk/django/contrib/admin/helpers.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/16151/django/trunk/django/contrib/admin/models.py
+END
+widgets.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16078/django/trunk/django/contrib/admin/widgets.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/15569/django/trunk/django/contrib/admin/forms.py
+END
+sites.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/16134/django/trunk/django/contrib/admin/sites.py
+END

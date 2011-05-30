@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/14548/django/trunk/tests/modeltests/m2m_signals
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12223/django/trunk/tests/modeltests/m2m_signals/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/14548/django/trunk/tests/modeltests/m2m_signals/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/14548/django/trunk/tests/modeltests/m2m_signals/models.py
+END

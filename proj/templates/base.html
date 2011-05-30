@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="{% if LANGUAGE_BIDI %}rtl{% else %}ltr{% endif %}" xml:lang="{{ LANGUAGE_CODE }}" lang="{{ LANGUAGE_CODE }}">
+
+    <head>
+        {% block head %}
+        {% endblock head %}
+    </head>
+
+    <body>
+        {% block body %}
+        {% endblock body %}
+	</body>
+
+</html>
+
+{% comment %}
+vim:filetype=htmldjango
+{% endcomment %}

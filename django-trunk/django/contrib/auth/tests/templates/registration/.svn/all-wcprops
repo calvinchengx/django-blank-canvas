@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/14003/django/trunk/django/contrib/auth/tests/templates/registration
+END
+password_reset_complete.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12420/django/trunk/django/contrib/auth/tests/templates/registration/password_reset_complete.html
+END
+password_reset_confirm.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12420/django/trunk/django/contrib/auth/tests/templates/registration/password_reset_confirm.html
+END
+password_reset_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/12420/django/trunk/django/contrib/auth/tests/templates/registration/password_reset_form.html
+END
+logged_out.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/14003/django/trunk/django/contrib/auth/tests/templates/registration/logged_out.html
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/8497/django/trunk/django/contrib/auth/tests/templates/registration/login.html
+END
+password_reset_done.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/12420/django/trunk/django/contrib/auth/tests/templates/registration/password_reset_done.html
+END
+password_change_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/14003/django/trunk/django/contrib/auth/tests/templates/registration/password_change_form.html
+END
+password_reset_email.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/12420/django/trunk/django/contrib/auth/tests/templates/registration/password_reset_email.html
+END

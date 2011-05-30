@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/14293/django/trunk/tests/regressiontests/staticfiles_tests/apps/test/otherdir
+END
+odfile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/14293/django/trunk/tests/regressiontests/staticfiles_tests/apps/test/otherdir/odfile.txt
+END

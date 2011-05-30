@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/16222/django/trunk/django/core/management
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/13993/django/trunk/django/core/management/base.py
+END
+validation.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/15927/django/trunk/django/core/management/validation.py
+END
+color.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/12377/django/trunk/django/core/management/color.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/16222/django/trunk/django/core/management/__init__.py
+END
+sql.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/15978/django/trunk/django/core/management/sql.py
+END

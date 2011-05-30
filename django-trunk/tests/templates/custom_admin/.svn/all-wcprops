@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/12916/django/trunk/tests/templates/custom_admin
+END
+password_change_done.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12217/django/trunk/tests/templates/custom_admin/password_change_done.html
+END
+change_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/7967/django/trunk/tests/templates/custom_admin/change_list.html
+END
+delete_selected_confirmation.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/12916/django/trunk/tests/templates/custom_admin/delete_selected_confirmation.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7967/django/trunk/tests/templates/custom_admin/index.html
+END
+object_history.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/7967/django/trunk/tests/templates/custom_admin/object_history.html
+END
+change_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/7967/django/trunk/tests/templates/custom_admin/change_form.html
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7967/django/trunk/tests/templates/custom_admin/login.html
+END
+logout.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12217/django/trunk/tests/templates/custom_admin/logout.html
+END
+delete_confirmation.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/7967/django/trunk/tests/templates/custom_admin/delete_confirmation.html
+END
+password_change_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12217/django/trunk/tests/templates/custom_admin/password_change_form.html
+END
+add_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12216/django/trunk/tests/templates/custom_admin/add_form.html
+END

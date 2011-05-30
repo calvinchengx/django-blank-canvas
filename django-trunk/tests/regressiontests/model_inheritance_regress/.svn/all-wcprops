@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/15728/django/trunk/tests/regressiontests/model_inheritance_regress
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/7600/django/trunk/tests/regressiontests/model_inheritance_regress/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/15728/django/trunk/tests/regressiontests/model_inheritance_regress/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/15498/django/trunk/tests/regressiontests/model_inheritance_regress/models.py
+END

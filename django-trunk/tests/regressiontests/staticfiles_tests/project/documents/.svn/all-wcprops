@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/15878/django/trunk/tests/regressiontests/staticfiles_tests/project/documents
+END
+test.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/14293/django/trunk/tests/regressiontests/staticfiles_tests/project/documents/test.txt
+END

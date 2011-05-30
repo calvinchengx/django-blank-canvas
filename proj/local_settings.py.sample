@@ -1,0 +1,27 @@
+# copy to local_settings.py and modify as needed
+
+DEBUG = True
+TEMPLATE_DEBUG = DEBUG
+
+DATABASES['default']['HOST'] = 'localhost'
+#CACHES = {
+    #'default': {
+        #'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        #'LOCATION': '127.0.0.1:11211',
+    #}
+#}
+#SESSION_COOKIE_DOMAIN = '127.0.0.1'
+#SESSION_ENGINE = 'django.contrib.sessions.backends.cached_db'
+#USE_S3 = False
+#TIME_ZONE="Europe/Rome"
+
+#EMAIL_HOST = 'localhost'
+#EMAIL_PORT = 1025
+#EMAIL_USE_TLS = False
+#EMAIL_HOST_USER = None
+#EMAIL_HOST_PASSWORD = None
+
+ADMINS = (
+    ('', ''),
+)
+MANAGERS = ADMINS

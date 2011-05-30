@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/14883/django/trunk/django/contrib/sitemaps/tests/templates
+END
+custom_sitemap_index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/14883/django/trunk/django/contrib/sitemaps/tests/templates/custom_sitemap_index.xml
+END
+custom_sitemap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/14883/django/trunk/django/contrib/sitemaps/tests/templates/custom_sitemap.xml
+END

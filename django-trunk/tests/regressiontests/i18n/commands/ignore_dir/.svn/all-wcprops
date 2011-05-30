@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/14133/django/trunk/tests/regressiontests/i18n/commands/ignore_dir
+END
+ignored.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/14133/django/trunk/tests/regressiontests/i18n/commands/ignore_dir/ignored.html
+END

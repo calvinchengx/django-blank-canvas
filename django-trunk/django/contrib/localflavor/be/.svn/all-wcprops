@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/16146/django/trunk/django/contrib/localflavor/be
+END
+be_regions.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/14160/django/trunk/django/contrib/localflavor/be/be_regions.py
+END
+be_provinces.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/14160/django/trunk/django/contrib/localflavor/be/be_provinces.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/14160/django/trunk/django/contrib/localflavor/be/__init__.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/16146/django/trunk/django/contrib/localflavor/be/forms.py
+END

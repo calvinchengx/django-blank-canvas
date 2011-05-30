@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/13005/django/trunk/tests/regressiontests/admin_scripts/app_with_import
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/13005/django/trunk/tests/regressiontests/admin_scripts/app_with_import/__init__.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/13005/django/trunk/tests/regressiontests/admin_scripts/app_with_import/models.py
+END

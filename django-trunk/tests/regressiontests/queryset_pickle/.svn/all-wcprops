@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/13014/django/trunk/tests/regressiontests/queryset_pickle
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12866/django/trunk/tests/regressiontests/queryset_pickle/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/13014/django/trunk/tests/regressiontests/queryset_pickle/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/13013/django/trunk/tests/regressiontests/queryset_pickle/models.py
+END

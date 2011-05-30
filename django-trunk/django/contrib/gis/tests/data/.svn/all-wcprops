@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/15946/django/trunk/django/contrib/gis/tests/data
+END
+geometries.json.gz
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/14414/django/trunk/django/contrib/gis/tests/data/geometries.json.gz
+END
+texas.dbf
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/15946/django/trunk/django/contrib/gis/tests/data/texas.dbf
+END

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/13082/django/trunk/tests/regressiontests/utils/eggs
+END
+test_egg.egg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/13082/django/trunk/tests/regressiontests/utils/eggs/test_egg.egg
+END

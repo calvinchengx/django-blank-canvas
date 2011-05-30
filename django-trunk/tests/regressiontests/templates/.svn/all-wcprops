@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16267/django/trunk/tests/regressiontests/templates
+END
+loaders.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/15990/django/trunk/tests/regressiontests/templates/loaders.py
+END
+parser.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/14448/django/trunk/tests/regressiontests/templates/parser.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/15226/django/trunk/tests/regressiontests/templates/views.py
+END
+response.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/15728/django/trunk/tests/regressiontests/templates/response.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5876/django/trunk/tests/regressiontests/templates/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/16267/django/trunk/tests/regressiontests/templates/tests.py
+END
+smartif.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/15728/django/trunk/tests/regressiontests/templates/smartif.py
+END
+filters.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/13849/django/trunk/tests/regressiontests/templates/filters.py
+END
+custom.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/16179/django/trunk/tests/regressiontests/templates/custom.py
+END
+nodelist.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/14139/django/trunk/tests/regressiontests/templates/nodelist.py
+END
+callables.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/16045/django/trunk/tests/regressiontests/templates/callables.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5876/django/trunk/tests/regressiontests/templates/models.py
+END
+alternate_urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/15295/django/trunk/tests/regressiontests/templates/alternate_urls.py
+END
+context.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/14448/django/trunk/tests/regressiontests/templates/context.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12943/django/trunk/tests/regressiontests/templates/urls.py
+END
+unicode.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/14448/django/trunk/tests/regressiontests/templates/unicode.py
+END

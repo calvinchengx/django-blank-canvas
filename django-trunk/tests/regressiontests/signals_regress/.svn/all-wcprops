@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/15728/django/trunk/tests/regressiontests/signals_regress
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11710/django/trunk/tests/regressiontests/signals_regress/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/15728/django/trunk/tests/regressiontests/signals_regress/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/13896/django/trunk/tests/regressiontests/signals_regress/models.py
+END

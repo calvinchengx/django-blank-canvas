@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/16286/django/trunk
+END
+.hgignore
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/15009/django/trunk/.hgignore
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/8258/django/trunk/LICENSE
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/15009/django/trunk/.gitignore
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/16104/django/trunk/AUTHORS
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/11684/django/trunk/INSTALL
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/15929/django/trunk/setup.py
+END
+MANIFEST.in
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/15860/django/trunk/MANIFEST.in
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/15915/django/trunk/README
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/13487/django/trunk/setup.cfg
+END

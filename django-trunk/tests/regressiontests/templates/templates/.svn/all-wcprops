@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/16117/django/trunk/tests/regressiontests/templates/templates
+END
+response.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/15295/django/trunk/tests/regressiontests/templates/templates/response.html
+END
+ssi_include.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/14643/django/trunk/tests/regressiontests/templates/templates/ssi_include.html
+END
+test_incl_tag_current_app.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/16117/django/trunk/tests/regressiontests/templates/templates/test_incl_tag_current_app.html
+END
+test_extends_error.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12792/django/trunk/tests/regressiontests/templates/templates/test_extends_error.html
+END
+inclusion.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/15821/django/trunk/tests/regressiontests/templates/templates/inclusion.html
+END
+test_context.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/15591/django/trunk/tests/regressiontests/templates/templates/test_context.html
+END
+test_incl_tag_use_l10n.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/16117/django/trunk/tests/regressiontests/templates/templates/test_incl_tag_use_l10n.html
+END
+broken_base.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12792/django/trunk/tests/regressiontests/templates/templates/broken_base.html
+END
+test_include_error.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/15717/django/trunk/tests/regressiontests/templates/templates/test_include_error.html
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/13612/django/trunk/tests/regressiontests/multiple_database/fixtures
+END
+pets.json
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/13612/django/trunk/tests/regressiontests/multiple_database/fixtures/pets.json
+END
+multidb.other.json
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/11952/django/trunk/tests/regressiontests/multiple_database/fixtures/multidb.other.json
+END
+multidb.default.json
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/11952/django/trunk/tests/regressiontests/multiple_database/fixtures/multidb.default.json
+END
+multidb-common.json
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/11952/django/trunk/tests/regressiontests/multiple_database/fixtures/multidb-common.json
+END

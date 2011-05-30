@@ -1,0 +1,251 @@
+10
+
+dir
+16286
+http://code.djangoproject.com/svn/django/trunk/tests/modeltests
+http://code.djangoproject.com/svn
+
+
+
+2011-05-22T15:21:03.613971Z
+16261
+jezdez
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+bcc190cf-cafb-0310-a4f2-bffc1f526a37
+
+select_related
+dir
+
+field_subclassing
+dir
+
+m2m_recursive
+dir
+
+proxy_models
+dir
+
+m2o_recursive
+dir
+
+defer
+dir
+
+__init__.py
+file
+
+
+
+
+2011-05-28T07:36:40.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2007-08-12T12:49:01.338903Z
+5876
+mtredinnick
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+custom_managers
+dir
+
+invalid_models
+dir
+
+or_lookups
+dir
+
+mutually_referential
+dir
+
+custom_methods
+dir
+
+empty
+dir
+
+unmanaged_models
+dir
+
+files
+dir
+
+get_or_create
+dir
+
+reverse_lookup
+dir
+
+custom_pk
+dir
+
+str
+dir
+
+model_inheritance
+dir
+
+lookup
+dir
+
+proxy_model_inheritance
+dir
+
+save_delete_hooks
+dir
+
+aggregation
+dir
+
+get_object_or_404
+dir
+
+order_with_respect_to
+dir
+
+model_inheritance_same_model_name
+dir
+
+reserved_names
+dir
+
+delete
+dir
+
+fixtures_model_package
+dir
+
+model_forms
+dir
+
+many_to_one
+dir
+
+validators
+dir
+
+ordering
+dir
+
+field_defaults
+dir
+
+test_client
+dir
+
+raw_query
+dir
+
+basic
+dir
+
+expressions
+dir
+
+one_to_one
+dir
+
+force_insert_update
+dir
+
+validation
+dir
+
+m2m_and_m2o
+dir
+
+many_to_many
+dir
+
+m2m_through
+dir
+
+signals
+dir
+
+many_to_one_null
+dir
+
+m2m_multiple
+dir
+
+m2m_intermediary
+dir
+
+transactions
+dir
+
+m2m_signals
+dir
+
+choices
+dir
+
+update
+dir
+
+model_formsets
+dir
+
+select_for_update
+dir
+
+pagination
+dir
+
+get_latest
+dir
+
+serializers
+dir
+
+properties
+dir
+
+generic_relations
+dir
+
+user_commands
+dir
+
+fixtures
+dir
+
+custom_columns
+dir
+
+model_package
+dir
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/15728/django/trunk/tests/regressiontests/transactions_regress
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/15493/django/trunk/tests/regressiontests/transactions_regress/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/15728/django/trunk/tests/regressiontests/transactions_regress/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/15493/django/trunk/tests/regressiontests/transactions_regress/models.py
+END

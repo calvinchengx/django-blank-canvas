@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/16146/django/trunk/django/contrib/localflavor/hr
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/16077/django/trunk/django/contrib/localflavor/hr/__init__.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/16146/django/trunk/django/contrib/localflavor/hr/forms.py
+END
+hr_choices.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/16077/django/trunk/django/contrib/localflavor/hr/hr_choices.py
+END

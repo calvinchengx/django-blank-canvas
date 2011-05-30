@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/16138/django/trunk/django/templatetags
+END
+future.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/14643/django/trunk/django/templatetags/future.py
+END
+l10n.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/14395/django/trunk/django/templatetags/l10n.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/12295/django/trunk/django/templatetags/__init__.py
+END
+i18n.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/16138/django/trunk/django/templatetags/i18n.py
+END
+cache.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/16138/django/trunk/django/templatetags/cache.py
+END
+static.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/14592/django/trunk/django/templatetags/static.py
+END

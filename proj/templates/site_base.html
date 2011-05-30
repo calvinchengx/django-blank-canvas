@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block head %}
+	<title>
+		{% block page_title %}{% endblock page_title %}
+	</title>
+    <link rel="icon" href="{{ MEDIA_URL }}favicon.ico" />
+
+    <!--Global Meta-->
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="robots" content="all">
+    <!--Page Specific Meta-->
+    {% block pagemeta %}{% endblock %}
+
+	<!--Global CSS-->
+	<link rel="stylesheet" type="text/css" media="all" href="{{ MEDIA_URL }}css/main.css" />
+    <!--Page Specific css-->
+    {% block pagecss %}{% endblock %}
+
+	<!--Global JS-->
+    <script type="text/javascript" src="{{ MEDIA_URL }}js/main.js"></script>
+    <!--Page Specific js-->
+    {% block pagejs %}{% endblock %}
+
+{% endblock head %}
+
+{% block body %}
+    {% block content %}
+    <div id="summary">
+        <h1>It worked!</h1>
+        <h2>Congratulations on your first Django-powered page.</h2>
+    </div>
+
+    <div id="instructions">
+        <p>Of course, you haven't actually done any work yet. Here's what to do next:</p>
+        <ul>
+            <li>If you plan to use a database, edit the <code>DATABASES</code> setting in <code>{{ project_name }}/settings.py</code>.</li>
+            <li>Start your first app by running <code>python {{ project_name }}/manage.py startapp [appname]</code>.</li>
+        </ul>
+    </div>
+
+    <div id="explanation">
+        <p>
+            You're seeing this message because you have <code>DEBUG = True</code> in your
+            Django settings file and you haven't configured any URLs. Get to work!
+        </p>
+    </div>
+    {% endblock content %}
+{% endblock body %}
