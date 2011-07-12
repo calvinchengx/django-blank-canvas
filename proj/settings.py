@@ -123,6 +123,7 @@ INSTALLED_APPS = (
     'django.contrib.gis',
 
     'homepage',
+    'robots',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (

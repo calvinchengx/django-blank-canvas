@@ -6,6 +6,14 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../django-trunk'))
 sys.path.insert(0, '')
 
+# Some thirdparty modules include the setup.py script instead of the actual django app we want.
+# So, we find these thirdparty modules and insert them into the path.
+git_sub_modules = os.path.join(os.path.dirname(__file__), '_thirdparty')
+for dir in os.listdir(git_sub_modules):
+    path = os.path.join(git_sub_modules, dir)
+    if not path in sys.path:
+        sys.path.append(path)
+
 from django.core.management import execute_manager
 #try:
     #import settings # Assumed to be in the same directory.
