@@ -12,7 +12,7 @@ git_sub_modules = os.path.join(os.path.dirname(__file__), '_thirdparty')
 for dir in os.listdir(git_sub_modules):
     path = os.path.join(git_sub_modules, dir)
     if not path in sys.path:
-        sys.path.append(path)
+        sys.path.insert(0, path)
 
 from django.core.management import execute_manager
 #try:
