@@ -1,0 +1,3 @@
+[submodule "proj/_thirdparty/django-robots"]
+	path = proj/_thirdparty/django-robots
+	url = https://github.com/jezdez/django-robots.git
