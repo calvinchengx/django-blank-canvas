@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/14168/django/trunk/tests/modeltests/many_to_one_null
+/svn/!svn/ver/16336/django/trunk/tests/modeltests/many_to_one_null
 END
 __init__.py
 K 25
@@ -13,7 +13,7 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/!svn/ver/14168/django/trunk/tests/modeltests/many_to_one_null/tests.py
+/svn/!svn/ver/16336/django/trunk/tests/modeltests/many_to_one_null/tests.py
 END
 models.py
 K 25

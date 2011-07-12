@@ -262,9 +262,10 @@ Methods
 
         Returns a site-specific profile for this user. Raises
         :exc:`django.contrib.auth.models.SiteProfileNotAvailable` if the
-        current site doesn't allow profiles. For information on how to define a
-        site-specific user profile, see the section on `storing additional user
-        information`_ below.
+        current site doesn't allow profiles, or
+        :exc:`django.core.exceptions.ObjectDoesNotExist` if the user does not
+        have a profile. For information on how to define a site-specific user
+        profile, see the section on `storing additional user information`_ below.
 
 .. _storing additional user information: #storing-additional-information-about-users
 
@@ -276,7 +277,10 @@ Manager functions
     The :class:`~django.contrib.auth.models.User` model has a custom manager
     that has the following helper functions:
 
-    .. method:: models.UserManager.create_user(username, email, password=None)
+    .. method:: models.UserManager.create_user(username, email=None, password=None)
+
+        .. versionchanged:: 1.4
+           The ``email`` parameter was made optional.
 
         Creates, saves and returns a :class:`~django.contrib.auth.models.User`.
 
@@ -470,7 +474,18 @@ you'd like to have available, and also add a
 :class:`~django.db.models.Field.OneToOneField` named ``user`` from your model
 to the :class:`~django.contrib.auth.models.User` model. This will ensure only
 one instance of your model can be created for each
-:class:`~django.contrib.auth.models.User`.
+:class:`~django.contrib.auth.models.User`. For example::
+
+    from django.contrib.auth.models import User
+
+    class UserProfile(models.Model):
+        # This field is required.
+        user = models.OneToOneField(User)
+
+        # Other fields here
+        accepted_eula = models.BooleanField()
+        favorite_animal = models.CharField(max_length=20, default="Dragons.")
+
 
 To indicate that this model is the user profile model for a given site, fill in
 the setting :setting:`AUTH_PROFILE_MODULE` with a string consisting of the
@@ -496,14 +511,26 @@ instance of the user profile model associated with that
 :class:`~django.contrib.auth.models.User`.
 
 The method :class:`~django.contrib.auth.models.User.get_profile()`
-does not create the profile, if it does not exist. You need to
-register a handler for the signal
-:attr:`django.db.models.signals.post_save` on the User model, and, in
-the handler, if created=True, create the associated user profile.
+does not create a profile if one does not exist. You need to register a handler
+for the User model's :attr:`django.db.models.signals.post_save` signal and, in
+the handler, if ``created`` is ``True``, create the associated user profile::
 
-For more information, see `Chapter 12 of the Django book`_.
+    # in models.py
 
-.. _Chapter 12 of the Django book: http://www.djangobook.com/en/1.0/chapter12/#cn222
+    from django.contrib.auth.models import User
+    from django.db.models.signals import post_save
+
+    # definition of UserProfile from above
+    # ...
+
+    def create_user_profile(sender, instance, created, **kwargs):
+        if created:
+            UserProfile.objects.create(user=instance)
+
+    post_save.connect(create_user_profile, sender=User)
+
+.. seealso:: :doc:`/topics/signals` for more information on Django's signal
+    dispatcher.
 
 Authentication in Web requests
 ==============================
@@ -603,19 +630,44 @@ Django provides two functions in :mod:`django.contrib.auth`:
 
 .. _backends documentation: #other-authentication-sources
 
-Manually checking a user's password
+Manually managing a user's password
 -----------------------------------
 
-.. currentmodule:: django.contrib.auth.models
+.. currentmodule:: django.contrib.auth.utils
+
+.. versionadded:: 1.4
+
+    The :mod:`django.contrib.auth.utils` module provides a set of functions
+    to create and validate hashed password. You can use them independently
+    from the ``User`` model.
 
 .. function:: check_password()
 
     If you'd like to manually authenticate a user by comparing a plain-text
     password to the hashed password in the database, use the convenience
-    function :func:`django.contrib.auth.models.check_password`. It takes two
-    arguments: the plain-text password to check, and the full value of a user's
-    ``password`` field in the database to check against, and returns ``True``
-    if they match, ``False`` otherwise.
+    function :func:`django.contrib.auth.utils.check_password`. It takes two
+    arguments: the plain-text password to check, and the full value of a
+    user's ``password`` field in the database to check against, and returns
+    ``True`` if they match, ``False`` otherwise.
+
+.. function:: make_password()
+
+    .. versionadded:: 1.4
+
+    Creates a hashed password in the format used by this application. It takes
+    two arguments: hashing algorithm to use and the password in plain-text.
+    Currently supported algorithms are: ``'sha1'``, ``'md5'`` and ``'crypt'``
+    if you have the ``crypt`` library installed. If the second argument is
+    ``None``, an unusable password is returned (a one that will be never
+    accepted by :func:`django.contrib.auth.utils.check_password`).
+
+.. function:: is_password_usable()
+
+    .. versionadded:: 1.4
+
+   Checks if the given string is a hashed password that has a chance
+   of being verified against :func:`django.contrib.auth.utils.check_password`.
+
 
 How to log a user out
 ---------------------
@@ -750,7 +802,7 @@ The login_required decorator
     Note that if you provide a value to ``redirect_field_name``, you will most
     likely need to customize your login template as well, since the template
     context variable which stores the redirect path will use the value of
-    ``redirect_field_name`` as it's key rather than ``"next"`` (the default).
+    ``redirect_field_name`` as its key rather than ``"next"`` (the default).
 
     .. versionadded:: 1.3
 
@@ -964,6 +1016,12 @@ includes a few other useful built-in views located in
           generating the email with the new password. This will default to
           :file:`registration/password_reset_email.html` if not supplied.
 
+        * ``subject_template_name``: The full name of a template to use for
+          the subject of the email with the new password. This will default
+          to :file:`registration/password_reset_subject.txt` if not supplied.
+
+          .. versionadded:: 1.4
+
         * ``password_reset_form``: Form that will be used to set the password.
           Defaults to :class:`~django.contrib.auth.forms.PasswordResetForm`.
 
@@ -981,9 +1039,17 @@ includes a few other useful built-in views located in
 
         * ``form``: The form for resetting the user's password.
 
+        .. versionchanged:: 1.4
+            Users flagged with an unusable password (see
+            :meth:`~django.contrib.auth.models.User.set_unusable_password()`
+            will not be able to request a password reset to prevent misuse
+            when using an external authentication source like LDAP.
+
 .. function:: password_reset_done(request[, template_name])
 
-    The page shown after a user has reset their password.
+    The page shown after a user has been emailed a link to reset their
+    password. This view is called by default if the :func:`password_reset` view
+    doesn't have an explicit ``post_reset_redirect`` URL set.
 
     **Optional arguments:**
 

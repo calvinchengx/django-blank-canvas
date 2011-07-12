@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/modeltests/fixtures_model_package
 http://code.djangoproject.com/svn
 
@@ -35,7 +35,7 @@ file
 
 
 
-2011-05-28T07:36:38.000000Z
+2011-07-12T16:57:19.000000Z
 e1c06d85ae7b8b032bef47e42e4c08f9
 2009-12-19T14:27:26.288398Z
 11914
@@ -72,7 +72,7 @@ file
 
 
 
-2011-05-28T07:36:38.000000Z
+2011-07-12T16:57:19.000000Z
 29b789279e038eb7191e0b1c5d0375fb
 2010-09-10T19:16:43.346596Z
 13717

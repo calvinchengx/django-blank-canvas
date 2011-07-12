@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/16163/django/trunk/tests/modeltests/validation
+/svn/!svn/ver/16502/django/trunk/tests/modeltests/validation
 END
 validators.py
 K 25
@@ -25,17 +25,17 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/svn/!svn/ver/16163/django/trunk/tests/modeltests/validation/tests.py
+/svn/!svn/ver/16393/django/trunk/tests/modeltests/validation/tests.py
 END
 models.py
 K 25
 svn:wc:ra_dav:version-url
 V 70
-/svn/!svn/ver/15167/django/trunk/tests/modeltests/validation/models.py
+/svn/!svn/ver/16502/django/trunk/tests/modeltests/validation/models.py
 END
 test_unique.py
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/!svn/ver/15167/django/trunk/tests/modeltests/validation/test_unique.py
+/svn/!svn/ver/16499/django/trunk/tests/modeltests/validation/test_unique.py
 END

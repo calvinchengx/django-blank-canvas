@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/gis/forms
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:35:13.000000Z
+2011-07-12T16:56:44.000000Z
 1616eed4ecdbf23703635fb4055ebf73
 2009-04-25T18:24:32.109756Z
 10634
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:35:13.000000Z
+2011-07-12T16:56:44.000000Z
 260d1a002a18ec299d4ea4e654316015
 2009-04-30T20:12:24.110791Z
 10650

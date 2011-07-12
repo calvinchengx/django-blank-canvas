@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/15927/django/trunk/django/core/mail/backends
+/svn/!svn/ver/16494/django/trunk/django/core/mail/backends
 END
 base.py
 K 25
@@ -43,5 +43,5 @@ smtp.py
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/15211/django/trunk/django/core/mail/backends/smtp.py
+/svn/!svn/ver/16494/django/trunk/django/core/mail/backends/smtp.py
 END

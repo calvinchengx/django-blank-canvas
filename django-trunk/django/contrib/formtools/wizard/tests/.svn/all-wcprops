@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/16425/django/trunk/django/contrib/formtools/wizard/tests
+END
+sessionstoragetests.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/16307/django/trunk/django/contrib/formtools/wizard/tests/sessionstoragetests.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/16307/django/trunk/django/contrib/formtools/wizard/tests/__init__.py
+END
+cookiestoragetests.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/16425/django/trunk/django/contrib/formtools/wizard/tests/cookiestoragetests.py
+END
+formtests.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/16399/django/trunk/django/contrib/formtools/wizard/tests/formtests.py
+END
+loadstoragetests.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/16307/django/trunk/django/contrib/formtools/wizard/tests/loadstoragetests.py
+END
+storagetests.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/16307/django/trunk/django/contrib/formtools/wizard/tests/storagetests.py
+END

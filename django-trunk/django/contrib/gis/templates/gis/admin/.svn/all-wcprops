@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/svn/!svn/ver/15845/django/trunk/django/contrib/gis/templates/gis/admin
+/svn/!svn/ver/16487/django/trunk/django/contrib/gis/templates/gis/admin
 END
 osm.html
 K 25
@@ -13,7 +13,7 @@ openlayers.html
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/svn/!svn/ver/10801/django/trunk/django/contrib/gis/templates/gis/admin/openlayers.html
+/svn/!svn/ver/16487/django/trunk/django/contrib/gis/templates/gis/admin/openlayers.html
 END
 osm.js
 K 25

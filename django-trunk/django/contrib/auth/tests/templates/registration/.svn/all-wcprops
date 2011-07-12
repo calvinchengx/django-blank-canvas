@@ -1,13 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 81
-/svn/!svn/ver/14003/django/trunk/django/contrib/auth/tests/templates/registration
+/svn/!svn/ver/16438/django/trunk/django/contrib/auth/tests/templates/registration
 END
 password_reset_complete.html
 K 25
 svn:wc:ra_dav:version-url
 V 110
 /svn/!svn/ver/12420/django/trunk/django/contrib/auth/tests/templates/registration/password_reset_complete.html
+END
+password_reset_subject.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/16438/django/trunk/django/contrib/auth/tests/templates/registration/password_reset_subject.txt
 END
 password_reset_confirm.html
 K 25

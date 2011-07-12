@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/test_client_regress/templates
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:42.000000Z
+2011-07-12T16:57:21.000000Z
 c862dc788f1db3260ff56bf264b4ef05
 2011-02-27T00:24:35.525725Z
 15660
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:42.000000Z
+2011-07-12T16:57:21.000000Z
 ef486579eef6e55715d7fa10e1735a04
 2009-04-07T12:06:05.557286Z
 10414

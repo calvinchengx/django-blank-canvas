@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/utils/eggs
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:47.000000Z
+2011-07-12T16:57:25.000000Z
 ee8d2b571b32af1ea819f347794f5cbb
 2010-05-04T06:14:47.956212Z
 13082

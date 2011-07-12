@@ -26,7 +26,7 @@ Quickstart
 ~~~~~~~~~~
 
 Running the tests requires a Django settings module that defines the
-databases to use. To make it easy to get started. Django provides a
+databases to use. To make it easy to get started, Django provides a
 sample settings module that uses the SQLite database. To run the tests
 with this sample ``settings`` module, ``cd`` into the Django
 ``tests/`` directory and run:
@@ -85,7 +85,7 @@ details for each database:
 
 You will also need to ensure that your database uses UTF-8 as the default
 character set. If your database server doesn't use UTF-8 as a default charset,
-you will need to include a value for ``TEST_CHARSET`` in the settings
+you will need to include a value for :setting:`TEST_CHARSET` in the settings
 dictionary for the applicable database.
 
 Running only some of the tests

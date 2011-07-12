@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/16169/django/trunk/tests/regressiontests/admin_views
+/svn/!svn/ver/16527/django/trunk/tests/regressiontests/admin_views
 END
 views.py
 K 25
@@ -19,7 +19,7 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/!svn/ver/16169/django/trunk/tests/regressiontests/admin_views/tests.py
+/svn/!svn/ver/16498/django/trunk/tests/regressiontests/admin_views/tests.py
 END
 customadmin.py
 K 25
@@ -31,7 +31,7 @@ models.py
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/svn/!svn/ver/16162/django/trunk/tests/regressiontests/admin_views/models.py
+/svn/!svn/ver/16502/django/trunk/tests/regressiontests/admin_views/models.py
 END
 urls.py
 K 25

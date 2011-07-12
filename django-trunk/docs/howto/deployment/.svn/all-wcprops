@@ -1,29 +1,35 @@
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/!svn/ver/15135/django/trunk/docs/howto/deployment
+/svn/!svn/ver/16491/django/trunk/docs/howto/deployment
 END
 modpython.txt
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/svn/!svn/ver/15055/django/trunk/docs/howto/deployment/modpython.txt
+/svn/!svn/ver/16491/django/trunk/docs/howto/deployment/modpython.txt
 END
 index.txt
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/14069/django/trunk/docs/howto/deployment/index.txt
+/svn/!svn/ver/16413/django/trunk/docs/howto/deployment/index.txt
 END
 modwsgi.txt
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/15135/django/trunk/docs/howto/deployment/modwsgi.txt
+/svn/!svn/ver/16491/django/trunk/docs/howto/deployment/modwsgi.txt
+END
+uwsgi.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16413/django/trunk/docs/howto/deployment/uwsgi.txt
 END
 fastcgi.txt
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/14361/django/trunk/docs/howto/deployment/fastcgi.txt
+/svn/!svn/ver/16489/django/trunk/docs/howto/deployment/fastcgi.txt
 END

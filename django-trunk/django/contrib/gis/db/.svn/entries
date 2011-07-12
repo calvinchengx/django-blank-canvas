@@ -1,15 +1,15 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/gis/db
 http://code.djangoproject.com/svn
 
 
 
-2011-04-06T11:19:37.754778Z
-16021
-ramiro
+2011-07-05T14:16:37.286407Z
+16515
+jezdez
 has-props
 
 
@@ -35,7 +35,7 @@ file
 
 
 
-2011-05-28T07:35:13.000000Z
+2011-07-12T16:56:44.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2008-08-05T18:13:06.236010Z
 8219

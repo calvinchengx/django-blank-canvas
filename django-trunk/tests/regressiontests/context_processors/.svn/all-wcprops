@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 73
-/svn/!svn/ver/15990/django/trunk/tests/regressiontests/context_processors
+/svn/!svn/ver/16304/django/trunk/tests/regressiontests/context_processors
 END
 views.py
 K 25

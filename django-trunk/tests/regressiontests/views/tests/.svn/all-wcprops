@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/16277/django/trunk/tests/regressiontests/views/tests
+/svn/!svn/ver/16399/django/trunk/tests/regressiontests/views/tests
 END
 shortcuts.py
 K 25
@@ -31,7 +31,7 @@ debug.py
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/!svn/ver/16277/django/trunk/tests/regressiontests/views/tests/debug.py
+/svn/!svn/ver/16399/django/trunk/tests/regressiontests/views/tests/debug.py
 END
 defaults.py
 K 25

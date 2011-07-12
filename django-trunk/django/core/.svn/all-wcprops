@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 44
-/svn/!svn/ver/16280/django/trunk/django/core
+/svn/!svn/ver/16515/django/trunk/django/core
 END
 validators.py
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/15847/django/trunk/django/core/validators.py
+/svn/!svn/ver/16366/django/trunk/django/core/validators.py
 END
 signing.py
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/16270/django/trunk/django/core/signing.py
+/svn/!svn/ver/16471/django/trunk/django/core/signing.py
 END
 __init__.py
 K 25
@@ -26,12 +26,6 @@ K 25
 svn:wc:ra_dav:version-url
 V 54
 /svn/!svn/ver/8223/django/trunk/django/core/signals.py
-END
-template_loader.py
-K 25
-svn:wc:ra_dav:version-url
-V 62
-/svn/!svn/ver/2809/django/trunk/django/core/template_loader.py
 END
 exceptions.py
 K 25
@@ -61,5 +55,5 @@ urlresolvers.py
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/16177/django/trunk/django/core/urlresolvers.py
+/svn/!svn/ver/16424/django/trunk/django/core/urlresolvers.py
 END

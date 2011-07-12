@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/staticfiles_tests/apps/no_label/static
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:44.000000Z
+2011-07-12T16:57:22.000000Z
 ae652b5c514c24e5b437d53a4ec472ea
 2010-10-20T01:33:24.424771Z
 14293

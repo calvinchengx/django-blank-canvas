@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/16138/django/trunk/django/contrib/comments
+/svn/!svn/ver/16505/django/trunk/django/contrib/comments
 END
 admin.py
 K 25
@@ -55,5 +55,5 @@ forms.py
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/15953/django/trunk/django/contrib/comments/forms.py
+/svn/!svn/ver/16505/django/trunk/django/contrib/comments/forms.py
 END

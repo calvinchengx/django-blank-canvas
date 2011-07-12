@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/syndication
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:35:28.000000Z
+2011-07-12T16:56:46.000000Z
 75f046c2bde34c3806c308dfd8b19d36
 2011-04-02T08:36:40.208047Z
 15976
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:35:28.000000Z
+2011-07-12T16:56:46.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2006-12-30T06:25:49.438024Z
 4265

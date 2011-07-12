@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/i18n/commands/ignore_dir
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:44.000000Z
+2011-07-12T16:57:23.000000Z
 73486292ce486c247eeaf1bf399e85d2
 2010-10-10T22:19:01.534609Z
 14133

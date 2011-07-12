@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/16169/django/trunk/tests/regressiontests/forms/tests
+/svn/!svn/ver/16487/django/trunk/tests/regressiontests/forms/tests
 END
 validators.py
 K 25
@@ -19,25 +19,25 @@ util.py
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/svn/!svn/ver/14570/django/trunk/tests/regressiontests/forms/tests/util.py
+/svn/!svn/ver/16461/django/trunk/tests/regressiontests/forms/tests/util.py
 END
 __init__.py
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/16147/django/trunk/tests/regressiontests/forms/tests/__init__.py
+/svn/!svn/ver/16480/django/trunk/tests/regressiontests/forms/tests/__init__.py
 END
 media.py
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/!svn/ver/14592/django/trunk/tests/regressiontests/forms/tests/media.py
+/svn/!svn/ver/16487/django/trunk/tests/regressiontests/forms/tests/media.py
 END
 error_messages.py
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/svn/!svn/ver/14570/django/trunk/tests/regressiontests/forms/tests/error_messages.py
+/svn/!svn/ver/16451/django/trunk/tests/regressiontests/forms/tests/error_messages.py
 END
 formsets.py
 K 25
@@ -49,7 +49,7 @@ extra.py
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/!svn/ver/15427/django/trunk/tests/regressiontests/forms/tests/extra.py
+/svn/!svn/ver/16392/django/trunk/tests/regressiontests/forms/tests/extra.py
 END
 models.py
 K 25
@@ -67,13 +67,13 @@ fields.py
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/svn/!svn/ver/16148/django/trunk/tests/regressiontests/forms/tests/fields.py
+/svn/!svn/ver/16451/django/trunk/tests/regressiontests/forms/tests/fields.py
 END
 forms.py
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/!svn/ver/14734/django/trunk/tests/regressiontests/forms/tests/forms.py
+/svn/!svn/ver/16416/django/trunk/tests/regressiontests/forms/tests/forms.py
 END
 widgets.py
 K 25

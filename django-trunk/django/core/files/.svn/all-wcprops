@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/16280/django/trunk/django/core/files
+/svn/!svn/ver/16287/django/trunk/django/core/files
 END
 base.py
 K 25
@@ -43,7 +43,7 @@ storage.py
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/16280/django/trunk/django/core/files/storage.py
+/svn/!svn/ver/16287/django/trunk/django/core/files/storage.py
 END
 images.py
 K 25

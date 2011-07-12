@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/15728/django/trunk/tests/modeltests/validators
+/svn/!svn/ver/16366/django/trunk/tests/modeltests/validators
 END
 __init__.py
 K 25
@@ -13,7 +13,7 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/svn/!svn/ver/15728/django/trunk/tests/modeltests/validators/tests.py
+/svn/!svn/ver/16366/django/trunk/tests/modeltests/validators/tests.py
 END
 models.py
 K 25

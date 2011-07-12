@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/16405/django/trunk/tests/regressiontests/i18n/patterns/urls
+END
+wrong_namespace.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/16405/django/trunk/tests/regressiontests/i18n/patterns/urls/wrong_namespace.py
+END
+namespace.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/16405/django/trunk/tests/regressiontests/i18n/patterns/urls/namespace.py
+END
+wrong.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/16405/django/trunk/tests/regressiontests/i18n/patterns/urls/wrong.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/16405/django/trunk/tests/regressiontests/i18n/patterns/urls/__init__.py
+END
+default.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/16405/django/trunk/tests/regressiontests/i18n/patterns/urls/default.py
+END
+disabled.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/16405/django/trunk/tests/regressiontests/i18n/patterns/urls/disabled.py
+END

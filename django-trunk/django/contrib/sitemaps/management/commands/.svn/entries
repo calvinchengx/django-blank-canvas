@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/sitemaps/management/commands
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:35:38.000000Z
+2011-07-12T16:56:51.000000Z
 d97ec9e99843d12c668287c10f66a8f3
 2010-12-12T22:56:52.641078Z
 14884
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:35:38.000000Z
+2011-07-12T16:56:51.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2008-07-23T14:15:03.365124Z
 8062

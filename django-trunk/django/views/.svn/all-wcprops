@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/svn/!svn/ver/16282/django/trunk/django/views
+/svn/!svn/ver/16363/django/trunk/django/views
 END
 csrf.py
 K 25
@@ -25,7 +25,7 @@ debug.py
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/!svn/ver/16052/django/trunk/django/views/debug.py
+/svn/!svn/ver/16350/django/trunk/django/views/debug.py
 END
 defaults.py
 K 25

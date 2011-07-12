@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/gis/tests/geoapp/fixtures
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:35:27.000000Z
+2011-07-12T16:56:46.000000Z
 cf2dea0c96561efe23c8370a3b5bec47
 2010-12-02T05:58:21.051795Z
 14776

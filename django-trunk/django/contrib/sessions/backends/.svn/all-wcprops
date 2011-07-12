@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/15954/django/trunk/django/contrib/sessions/backends
+/svn/!svn/ver/16466/django/trunk/django/contrib/sessions/backends
 END
 base.py
 K 25
@@ -38,4 +38,10 @@ K 25
 svn:wc:ra_dav:version-url
 V 71
 /svn/!svn/ver/14564/django/trunk/django/contrib/sessions/backends/db.py
+END
+signed_cookies.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/16466/django/trunk/django/contrib/sessions/backends/signed_cookies.py
 END

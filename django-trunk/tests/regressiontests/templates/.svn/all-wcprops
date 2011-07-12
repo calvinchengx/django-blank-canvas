@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/16267/django/trunk/tests/regressiontests/templates
+/svn/!svn/ver/16487/django/trunk/tests/regressiontests/templates
 END
 loaders.py
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/!svn/ver/15990/django/trunk/tests/regressiontests/templates/loaders.py
+/svn/!svn/ver/16323/django/trunk/tests/regressiontests/templates/loaders.py
 END
 parser.py
 K 25
@@ -37,7 +37,7 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 73
-/svn/!svn/ver/16267/django/trunk/tests/regressiontests/templates/tests.py
+/svn/!svn/ver/16487/django/trunk/tests/regressiontests/templates/tests.py
 END
 smartif.py
 K 25
@@ -55,7 +55,7 @@ custom.py
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/svn/!svn/ver/16179/django/trunk/tests/regressiontests/templates/custom.py
+/svn/!svn/ver/16374/django/trunk/tests/regressiontests/templates/custom.py
 END
 nodelist.py
 K 25

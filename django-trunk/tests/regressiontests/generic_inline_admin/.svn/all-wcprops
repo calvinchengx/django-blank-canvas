@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/!svn/ver/15728/django/trunk/tests/regressiontests/generic_inline_admin
+/svn/!svn/ver/16419/django/trunk/tests/regressiontests/generic_inline_admin
 END
 __init__.py
 K 25
@@ -13,7 +13,7 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/svn/!svn/ver/15728/django/trunk/tests/regressiontests/generic_inline_admin/tests.py
+/svn/!svn/ver/16419/django/trunk/tests/regressiontests/generic_inline_admin/tests.py
 END
 models.py
 K 25

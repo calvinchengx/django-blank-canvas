@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/conf/locale/nn
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:34:56.000000Z
+2011-07-12T16:56:39.000000Z
 b07639ed4eab57b2a8a7f4620ac3879e
 2010-12-12T23:02:10.023250Z
 14893
@@ -69,7 +69,7 @@ file
 
 
 
-2011-05-28T07:34:56.000000Z
+2011-07-12T16:56:39.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2010-04-29T14:35:25.335004Z
 13046

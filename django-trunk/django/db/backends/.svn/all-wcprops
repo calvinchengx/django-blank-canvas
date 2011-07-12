@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 51
-/svn/!svn/ver/16209/django/trunk/django/db/backends
+/svn/!svn/ver/16520/django/trunk/django/db/backends
 END
 util.py
 K 25
@@ -25,5 +25,5 @@ creation.py
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/16027/django/trunk/django/db/backends/creation.py
+/svn/!svn/ver/16520/django/trunk/django/db/backends/creation.py
 END

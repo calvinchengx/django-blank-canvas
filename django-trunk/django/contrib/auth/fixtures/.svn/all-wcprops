@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/15990/django/trunk/django/contrib/auth/fixtures
+/svn/!svn/ver/16482/django/trunk/django/contrib/auth/fixtures
 END
 context-processors-users.xml
 K 25
@@ -12,12 +12,6 @@ END
 authtestdata.json
 K 25
 svn:wc:ra_dav:version-url
-V 78
-/svn/!svn/ver/7808/django/trunk/django/contrib/auth/fixtures/authtestdata.json
-END
-permissionstestdata.json
-K 25
-svn:wc:ra_dav:version-url
-V 86
-/svn/!svn/ver/14891/django/trunk/django/contrib/auth/fixtures/permissionstestdata.json
+V 79
+/svn/!svn/ver/16438/django/trunk/django/contrib/auth/fixtures/authtestdata.json
 END

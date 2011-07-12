@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/svn/!svn/ver/16148/django/trunk/django/forms
+/svn/!svn/ver/16461/django/trunk/django/forms
 END
 util.py
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/12098/django/trunk/django/forms/util.py
+/svn/!svn/ver/16461/django/trunk/django/forms/util.py
 END
 __init__.py
 K 25
@@ -25,13 +25,13 @@ models.py
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/16138/django/trunk/django/forms/models.py
+/svn/!svn/ver/16334/django/trunk/django/forms/models.py
 END
 fields.py
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/16148/django/trunk/django/forms/fields.py
+/svn/!svn/ver/16416/django/trunk/django/forms/fields.py
 END
 forms.py
 K 25
@@ -43,5 +43,5 @@ widgets.py
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/15927/django/trunk/django/forms/widgets.py
+/svn/!svn/ver/16459/django/trunk/django/forms/widgets.py
 END

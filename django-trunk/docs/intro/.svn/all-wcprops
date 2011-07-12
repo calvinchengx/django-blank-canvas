@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/svn/!svn/ver/16258/django/trunk/docs/intro
+/svn/!svn/ver/16463/django/trunk/docs/intro
 END
 tutorial01.txt
 K 25
@@ -13,7 +13,7 @@ tutorial02.txt
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/15055/django/trunk/docs/intro/tutorial02.txt
+/svn/!svn/ver/16463/django/trunk/docs/intro/tutorial02.txt
 END
 whatsnext.txt
 K 25
@@ -25,7 +25,7 @@ install.txt
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/14686/django/trunk/docs/intro/install.txt
+/svn/!svn/ver/16349/django/trunk/docs/intro/install.txt
 END
 overview.txt
 K 25
@@ -37,7 +37,7 @@ tutorial03.txt
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/16258/django/trunk/docs/intro/tutorial03.txt
+/svn/!svn/ver/16463/django/trunk/docs/intro/tutorial03.txt
 END
 index.txt
 K 25
@@ -49,5 +49,5 @@ tutorial04.txt
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/15313/django/trunk/docs/intro/tutorial04.txt
+/svn/!svn/ver/16463/django/trunk/docs/intro/tutorial04.txt
 END

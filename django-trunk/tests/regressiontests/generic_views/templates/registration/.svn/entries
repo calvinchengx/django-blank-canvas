@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/generic_views/templates/registration
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:46.000000Z
+2011-07-12T16:57:24.000000Z
 676279f090265d8e0de910fb5804cbd5
 2010-10-18T13:34:47.364179Z
 14254

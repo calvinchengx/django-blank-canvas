@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/16277/django/trunk/tests/regressiontests/views
+/svn/!svn/ver/16444/django/trunk/tests/regressiontests/views
 END
 views.py
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/svn/!svn/ver/16000/django/trunk/tests/regressiontests/views/views.py
+/svn/!svn/ver/16444/django/trunk/tests/regressiontests/views/views.py
 END
 __init__.py
 K 25

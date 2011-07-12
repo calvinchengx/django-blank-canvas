@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/svn/!svn/ver/16104/django/trunk/tests/regressiontests/serializers_regress
+/svn/!svn/ver/16366/django/trunk/tests/regressiontests/serializers_regress
 END
 __init__.py
 K 25
@@ -13,11 +13,11 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 83
-/svn/!svn/ver/16104/django/trunk/tests/regressiontests/serializers_regress/tests.py
+/svn/!svn/ver/16366/django/trunk/tests/regressiontests/serializers_regress/tests.py
 END
 models.py
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/svn/!svn/ver/15723/django/trunk/tests/regressiontests/serializers_regress/models.py
+/svn/!svn/ver/16366/django/trunk/tests/regressiontests/serializers_regress/models.py
 END

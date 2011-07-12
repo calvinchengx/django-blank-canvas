@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/bash_completion/management
 http://code.djangoproject.com/svn
 
@@ -35,7 +35,7 @@ file
 
 
 
-2011-05-28T07:36:48.000000Z
+2011-07-12T16:57:25.000000Z
 68b329da9893e34099c7d8ad5cb9c940
 2009-12-02T00:30:00.360592Z
 11785

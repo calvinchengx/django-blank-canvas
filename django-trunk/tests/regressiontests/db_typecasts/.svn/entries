@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/db_typecasts
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:40.000000Z
+2011-07-12T16:57:20.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2007-08-12T12:49:01.338903Z
 5876
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:40.000000Z
+2011-07-12T16:57:20.000000Z
 eca3ac31cfcbd2ca39d38f03b1e0a9ca
 2010-11-21T15:08:53.606889Z
 14664
@@ -100,7 +100,7 @@ file
 
 
 
-2011-05-28T07:36:40.000000Z
+2011-07-12T16:57:20.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2007-08-12T12:49:01.338903Z
 5876

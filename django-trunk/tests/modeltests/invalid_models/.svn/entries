@@ -1,14 +1,14 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/modeltests/invalid_models
 http://code.djangoproject.com/svn
 
 
 
-2010-12-29T01:18:11.491550Z
-15094
+2011-07-03T16:20:48.982213Z
+16493
 ramiro
 has-props
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:37.000000Z
+2011-07-12T16:57:18.000000Z
 68b329da9893e34099c7d8ad5cb9c940
 2007-08-12T12:49:01.338903Z
 5876
@@ -66,10 +66,10 @@ file
 
 
 
-2011-05-28T07:36:37.000000Z
-8cf61de1054f66335e86c20f37c995de
-2010-12-29T01:18:11.491550Z
-15094
+2011-07-12T16:57:18.000000Z
+b38da7f859e8d25fbb4ceca1fadf0801
+2011-07-03T16:20:48.982213Z
+16493
 ramiro
 has-props
 
@@ -92,5 +92,5 @@ has-props
 
 
 
-26190
+25518
 

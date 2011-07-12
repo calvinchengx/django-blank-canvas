@@ -1,15 +1,15 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/context_processors/templates/context_processors
 http://code.djangoproject.com/svn
 
 
 
-2010-11-20T06:22:28.199141Z
-14643
-russellm
+2011-05-31T15:19:19.181765Z
+16304
+lukeplant
 
 
 
@@ -26,183 +26,13 @@ russellm
 
 bcc190cf-cafb-0310-a4f2-bffc1f526a37
 
-auth_attrs_user.html
-file
-
-
-
-
-2011-05-28T07:36:44.000000Z
-c144d84c13e81c3defee8a4aa52b02aa
-2010-11-20T06:22:28.199141Z
-14643
-russellm
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-125
-
-auth_attrs_test_access.html
-file
-
-
-
-
-2011-05-28T07:36:44.000000Z
-c103bd82beca4d1e3682cbc7cd336e34
-2009-10-14T18:09:13.358072Z
-11623
-lukeplant
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-83
-
-auth_attrs_access.html
-file
-
-
-
-
-2011-05-28T07:36:44.000000Z
-0bb7d4e2b245414afea8e327b8fc5414
-2009-10-14T18:09:13.358072Z
-11623
-lukeplant
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11
-
-auth_attrs_perms.html
-file
-
-
-
-
-2011-05-28T07:36:44.000000Z
-20babc85845a96fc9de7b620ee64e804
-2009-10-14T18:09:13.358072Z
-11623
-lukeplant
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-51
-
-auth_attrs_messages.html
-file
-
-
-
-
-2011-05-28T07:36:44.000000Z
-cb0e9f26d814241dc12f6032a47d55ba
-2009-10-14T18:09:13.358072Z
-11623
-lukeplant
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-43
-
 request_attrs.html
 file
 
 
 
 
-2011-05-28T07:36:44.000000Z
+2011-07-12T16:57:23.000000Z
 631333b2cc7661d8d8784469e34b3b1e
 2008-08-03T19:55:26.809344Z
 8202
@@ -229,38 +59,4 @@ gwilson
 
 
 153
-
-auth_attrs_no_access.html
-file
-
-
-
-
-2011-05-28T07:36:44.000000Z
-d784fa8b6d98d27699781bd9a7cf19f0
-2009-10-14T18:09:13.358072Z
-11623
-lukeplant
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2
 

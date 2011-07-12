@@ -1,15 +1,15 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/admin_changelist
 http://code.djangoproject.com/svn
 
 
 
-2011-04-23T03:55:21.468257Z
-16093
-carljm
+2011-06-08T23:09:32.307969Z
+16341
+lukeplant
 
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:22.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2009-05-14T15:09:33.599902Z
 10782
@@ -66,11 +66,11 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
-8bfe154938b3502a6ae90241c9def877
-2011-04-23T03:55:21.468257Z
-16093
-carljm
+2011-07-12T16:57:22.000000Z
+3bc60da2d999f6b8faca9b00748f2d5b
+2011-06-08T23:09:32.307969Z
+16341
+lukeplant
 
 
 
@@ -92,7 +92,7 @@ carljm
 
 
 
-15432
+17585
 
 models.py
 file
@@ -100,7 +100,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:22.000000Z
 65a6d685f4eec99e66b4eadfba90d3d8
 2011-02-13T22:51:40.373213Z
 15526

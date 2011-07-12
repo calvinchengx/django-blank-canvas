@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/select_related_regress
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:48.000000Z
+2011-07-12T16:57:25.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2008-06-29T02:36:18.433495Z
 7778
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:48.000000Z
+2011-07-12T16:57:25.000000Z
 6dcbdeeb15d9dc46d10961c1579830b6
 2011-03-09T23:46:28.497051Z
 15789
@@ -100,7 +100,7 @@ file
 
 
 
-2011-05-28T07:36:48.000000Z
+2011-07-12T16:57:25.000000Z
 dee52087a2adc501dc9d1c9f51e36273
 2010-09-28T07:05:51.395008Z
 13925

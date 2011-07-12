@@ -1,7 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 41
-/svn/!svn/ver/16276/django/trunk/docs/ref
+/svn/!svn/ver/16538/django/trunk/docs/ref
+END
+index.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/16298/django/trunk/docs/ref/index.txt
+END
+generic-views.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/16290/django/trunk/docs/ref/generic-views.txt
 END
 template-response.txt
 K 25
@@ -9,35 +21,29 @@ svn:wc:ra_dav:version-url
 V 63
 /svn/!svn/ver/16276/django/trunk/docs/ref/template-response.txt
 END
-index.txt
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/!svn/ver/14850/django/trunk/docs/ref/index.txt
-END
-generic-views.txt
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/svn/!svn/ver/15894/django/trunk/docs/ref/generic-views.txt
-END
 validators.txt
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/15967/django/trunk/docs/ref/validators.txt
+/svn/!svn/ver/16366/django/trunk/docs/ref/validators.txt
+END
+clickjacking.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/16360/django/trunk/docs/ref/clickjacking.txt
 END
 class-based-views.txt
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/16256/django/trunk/docs/ref/class-based-views.txt
+/svn/!svn/ver/16381/django/trunk/docs/ref/class-based-views.txt
 END
 middleware.txt
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/15064/django/trunk/docs/ref/middleware.txt
+/svn/!svn/ver/16496/django/trunk/docs/ref/middleware.txt
 END
 exceptions.txt
 K 25
@@ -49,7 +55,7 @@ request-response.txt
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/16260/django/trunk/docs/ref/request-response.txt
+/svn/!svn/ver/16418/django/trunk/docs/ref/request-response.txt
 END
 unicode.txt
 K 25
@@ -61,13 +67,13 @@ databases.txt
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/16081/django/trunk/docs/ref/databases.txt
+/svn/!svn/ver/16423/django/trunk/docs/ref/databases.txt
 END
 django-admin.txt
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/16049/django/trunk/docs/ref/django-admin.txt
+/svn/!svn/ver/16437/django/trunk/docs/ref/django-admin.txt
 END
 authbackends.txt
 K 25
@@ -79,17 +85,17 @@ utils.txt
 K 25
 svn:wc:ra_dav:version-url
 V 51
-/svn/!svn/ver/16224/django/trunk/docs/ref/utils.txt
+/svn/!svn/ver/16403/django/trunk/docs/ref/utils.txt
 END
 settings.txt
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/!svn/ver/16253/django/trunk/docs/ref/settings.txt
+/svn/!svn/ver/16538/django/trunk/docs/ref/settings.txt
 END
 signals.txt
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/16237/django/trunk/docs/ref/signals.txt
+/svn/!svn/ver/16530/django/trunk/docs/ref/signals.txt
 END

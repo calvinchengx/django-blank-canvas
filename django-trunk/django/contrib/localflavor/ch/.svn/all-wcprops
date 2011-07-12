@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/16146/django/trunk/django/contrib/localflavor/ch
+/svn/!svn/ver/16435/django/trunk/django/contrib/localflavor/ch
 END
 ch_states.py
 K 25
@@ -19,5 +19,5 @@ forms.py
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/svn/!svn/ver/16146/django/trunk/django/contrib/localflavor/ch/forms.py
+/svn/!svn/ver/16435/django/trunk/django/contrib/localflavor/ch/forms.py
 END

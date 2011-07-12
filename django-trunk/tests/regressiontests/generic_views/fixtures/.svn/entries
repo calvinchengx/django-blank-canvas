@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/generic_views/fixtures
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:46.000000Z
+2011-07-12T16:57:24.000000Z
 918da70b133217fcb762c38f1c891712
 2011-01-03T13:15:58.476577Z
 15133

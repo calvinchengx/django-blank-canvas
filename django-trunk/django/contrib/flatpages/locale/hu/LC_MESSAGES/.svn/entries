@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/flatpages/locale/hu/LC_MESSAGES
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:31.000000Z
+2011-07-12T16:57:14.000000Z
 3a4e22b2e0da00e90e70847df4ed80b1
 2011-03-15T20:08:36.454032Z
 15829
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:31.000000Z
+2011-07-12T16:57:14.000000Z
 12f7073514a34f68be0d1298f8c51c3e
 2011-03-15T20:08:36.454032Z
 15829

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/16119/django/trunk/django/contrib/formtools
+/svn/!svn/ver/16425/django/trunk/django/contrib/formtools
 END
 __init__.py
 K 25
@@ -14,12 +14,6 @@ K 25
 svn:wc:ra_dav:version-url
 V 66
 /svn/!svn/ver/15972/django/trunk/django/contrib/formtools/utils.py
-END
-wizard.py
-K 25
-svn:wc:ra_dav:version-url
-V 67
-/svn/!svn/ver/16119/django/trunk/django/contrib/formtools/wizard.py
 END
 preview.py
 K 25

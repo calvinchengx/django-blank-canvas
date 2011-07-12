@@ -1,15 +1,15 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/serializers_regress
 http://code.djangoproject.com/svn
 
 
 
-2011-04-26T16:49:32.901520Z
-16104
-Alex
+2011-06-11T13:48:24.038191Z
+16366
+jezdez
 has-props
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:46.000000Z
+2011-07-12T16:57:24.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2007-08-12T12:49:01.338903Z
 5876
@@ -66,11 +66,11 @@ file
 
 
 
-2011-05-28T07:36:46.000000Z
-9c1327c6fa71d0cbe20cea4ed203cbc7
-2011-04-26T16:49:32.901520Z
-16104
-Alex
+2011-07-12T16:57:24.000000Z
+4007088f10727f9b26ab8374fb366854
+2011-06-11T13:48:24.038191Z
+16366
+jezdez
 has-props
 
 
@@ -92,7 +92,7 @@ has-props
 
 
 
-16963
+17182
 
 models.py
 file
@@ -100,11 +100,11 @@ file
 
 
 
-2011-05-28T07:36:46.000000Z
-e93ff13e7124fa64b9824d6177f9fb0a
-2011-03-03T13:28:20.169564Z
-15723
-russellm
+2011-07-12T16:57:24.000000Z
+52d7baeafd4624ad211b2e72598eb4ae
+2011-06-11T13:48:24.038191Z
+16366
+jezdez
 has-props
 
 
@@ -126,5 +126,5 @@ has-props
 
 
 
-7687
+7884
 

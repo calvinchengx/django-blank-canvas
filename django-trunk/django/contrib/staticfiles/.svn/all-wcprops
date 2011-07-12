@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/15877/django/trunk/django/contrib/staticfiles
+/svn/!svn/ver/16525/django/trunk/django/contrib/staticfiles
 END
 finders.py
 K 25
@@ -13,7 +13,7 @@ views.py
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/svn/!svn/ver/15539/django/trunk/django/contrib/staticfiles/views.py
+/svn/!svn/ver/16503/django/trunk/django/contrib/staticfiles/views.py
 END
 __init__.py
 K 25
@@ -25,7 +25,7 @@ handlers.py
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/svn/!svn/ver/15390/django/trunk/django/contrib/staticfiles/handlers.py
+/svn/!svn/ver/16503/django/trunk/django/contrib/staticfiles/handlers.py
 END
 utils.py
 K 25
@@ -43,7 +43,7 @@ storage.py
 K 25
 svn:wc:ra_dav:version-url
 V 70
-/svn/!svn/ver/15877/django/trunk/django/contrib/staticfiles/storage.py
+/svn/!svn/ver/16487/django/trunk/django/contrib/staticfiles/storage.py
 END
 urls.py
 K 25

@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/gis/maps
 http://code.djangoproject.com/svn
 
@@ -35,7 +35,7 @@ file
 
 
 
-2011-05-28T07:35:24.000000Z
+2011-07-12T16:56:45.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2008-08-05T18:13:06.236010Z
 8219

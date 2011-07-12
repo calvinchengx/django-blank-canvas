@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/svn/!svn/ver/16284/django/trunk/docs/howto
+/svn/!svn/ver/16491/django/trunk/docs/howto
 END
 auth-remote-user.txt
 K 25
@@ -37,13 +37,13 @@ i18n.txt
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/15441/django/trunk/docs/howto/i18n.txt
+/svn/!svn/ver/16290/django/trunk/docs/howto/i18n.txt
 END
 custom-template-tags.txt
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/svn/!svn/ver/16251/django/trunk/docs/howto/custom-template-tags.txt
+/svn/!svn/ver/16434/django/trunk/docs/howto/custom-template-tags.txt
 END
 apache-auth.txt
 K 25
@@ -61,7 +61,7 @@ static-files.txt
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/16235/django/trunk/docs/howto/static-files.txt
+/svn/!svn/ver/16491/django/trunk/docs/howto/static-files.txt
 END
 outputting-pdf.txt
 K 25
@@ -91,5 +91,5 @@ error-reporting.txt
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/16275/django/trunk/docs/howto/error-reporting.txt
+/svn/!svn/ver/16339/django/trunk/docs/howto/error-reporting.txt
 END

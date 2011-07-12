@@ -29,8 +29,7 @@ except ImportError:
         # Python 2.6 and greater
         from urlparse import parse_qsl
     except ImportError:
-        # Python 2.5, 2.4.  Works on Python 2.6 but raises
-        # PendingDeprecationWarning
+        # Python 2.5.  Works on Python 2.6 but raises PendingDeprecationWarning
         from cgi import parse_qsl
 
 __all__ = [
@@ -127,12 +126,12 @@ def parse_backend_conf(backend, **kwargs):
         location = args.pop('LOCATION', '')
         return backend, location, args
     else:
-        # Trying to import the given backend, in case it's a dotted path
-        mod_path, cls_name = backend.rsplit('.', 1)
         try:
+            # Trying to import the given backend, in case it's a dotted path
+            mod_path, cls_name = backend.rsplit('.', 1)
             mod = importlib.import_module(mod_path)
             backend_cls = getattr(mod, cls_name)
-        except (AttributeError, ImportError):
+        except (AttributeError, ImportError, ValueError):
             raise InvalidCacheBackendError("Could not find backend '%s'" % backend)
         location = kwargs.pop('LOCATION', '')
         return backend, location, kwargs

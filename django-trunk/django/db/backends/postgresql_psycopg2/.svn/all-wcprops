@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/svn/!svn/ver/16081/django/trunk/django/db/backends/postgresql_psycopg2
+/svn/!svn/ver/16520/django/trunk/django/db/backends/postgresql_psycopg2
 END
 base.py
 K 25
 svn:wc:ra_dav:version-url
 V 79
-/svn/!svn/ver/16058/django/trunk/django/db/backends/postgresql_psycopg2/base.py
+/svn/!svn/ver/16443/django/trunk/django/db/backends/postgresql_psycopg2/base.py
 END
 client.py
 K 25
@@ -25,23 +25,23 @@ introspection.py
 K 25
 svn:wc:ra_dav:version-url
 V 88
-/svn/!svn/ver/15980/django/trunk/django/db/backends/postgresql_psycopg2/introspection.py
+/svn/!svn/ver/16394/django/trunk/django/db/backends/postgresql_psycopg2/introspection.py
 END
 operations.py
 K 25
 svn:wc:ra_dav:version-url
 V 85
-/svn/!svn/ver/16081/django/trunk/django/db/backends/postgresql_psycopg2/operations.py
+/svn/!svn/ver/16439/django/trunk/django/db/backends/postgresql_psycopg2/operations.py
 END
 creation.py
 K 25
 svn:wc:ra_dav:version-url
 V 83
-/svn/!svn/ver/15980/django/trunk/django/db/backends/postgresql_psycopg2/creation.py
+/svn/!svn/ver/16520/django/trunk/django/db/backends/postgresql_psycopg2/creation.py
 END
 version.py
 K 25
 svn:wc:ra_dav:version-url
 V 82
-/svn/!svn/ver/15980/django/trunk/django/db/backends/postgresql_psycopg2/version.py
+/svn/!svn/ver/16439/django/trunk/django/db/backends/postgresql_psycopg2/version.py
 END

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/16276/django/trunk/django/core/handlers
+/svn/!svn/ver/16506/django/trunk/django/core/handlers
 END
 profiler-hotshot.py
 K 25
@@ -13,13 +13,13 @@ wsgi.py
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/16082/django/trunk/django/core/handlers/wsgi.py
+/svn/!svn/ver/16479/django/trunk/django/core/handlers/wsgi.py
 END
 base.py
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/16276/django/trunk/django/core/handlers/base.py
+/svn/!svn/ver/16506/django/trunk/django/core/handlers/base.py
 END
 __init__.py
 K 25
@@ -31,5 +31,5 @@ modpython.py
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/16082/django/trunk/django/core/handlers/modpython.py
+/svn/!svn/ver/16350/django/trunk/django/core/handlers/modpython.py
 END

@@ -1,11 +1,11 @@
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/16001/django/trunk/django/core/cache
+/svn/!svn/ver/16511/django/trunk/django/core/cache
 END
 __init__.py
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/15977/django/trunk/django/core/cache/__init__.py
+/svn/!svn/ver/16511/django/trunk/django/core/cache/__init__.py
 END

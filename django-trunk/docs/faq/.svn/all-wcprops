@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 41
-/svn/!svn/ver/16081/django/trunk/docs/faq
+/svn/!svn/ver/16349/django/trunk/docs/faq
 END
 models.txt
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/16081/django/trunk/docs/faq/models.txt
+/svn/!svn/ver/16290/django/trunk/docs/faq/models.txt
 END
 usage.txt
 K 25
@@ -19,13 +19,13 @@ install.txt
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/16007/django/trunk/docs/faq/install.txt
+/svn/!svn/ver/16349/django/trunk/docs/faq/install.txt
 END
 contributing.txt
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/13608/django/trunk/docs/faq/contributing.txt
+/svn/!svn/ver/16289/django/trunk/docs/faq/contributing.txt
 END
 index.txt
 K 25
@@ -37,7 +37,7 @@ admin.txt
 K 25
 svn:wc:ra_dav:version-url
 V 51
-/svn/!svn/ver/13648/django/trunk/docs/faq/admin.txt
+/svn/!svn/ver/16290/django/trunk/docs/faq/admin.txt
 END
 help.txt
 K 25

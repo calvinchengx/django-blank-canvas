@@ -32,12 +32,13 @@ from django.utils import unittest
 
 # local test models
 from models import (Article, BarAccount, CustomArticle, EmptyModel,
-    FooAccount, Gallery, ModelWithStringPrimaryKey,
+    FooAccount, Gallery, PersonAdmin, ModelWithStringPrimaryKey,
     Person, Persona, Picture, Podcast, Section, Subscriber, Vodcast,
     Language, Collector, Widget, Grommet, DooHickey, FancyDoodad, Whatsit,
     Category, Post, Plot, FunkyTag, Chapter, Book, Promo, WorkHour, Employee,
     Question, Answer, Inquisition, Actor, FoodDelivery,
-    RowLevelChangePermissionModel, Paper, CoverLetter, Story, OtherStory)
+    RowLevelChangePermissionModel, Paper, CoverLetter, Story, OtherStory,
+    ComplexSortedPerson, Parent, Child)
 
 
 class AdminViewBasicTest(TestCase):
@@ -204,7 +205,7 @@ class AdminViewBasicTest(TestCase):
         Ensure we can sort on a list_display field that is a callable
         (column 2 is callable_year in ArticleAdmin)
         """
-        response = self.client.get('/test_admin/%s/admin_views/article/' % self.urlbit, {'ot': 'asc', 'o': 2})
+        response = self.client.get('/test_admin/%s/admin_views/article/' % self.urlbit, {'o': 2})
         self.assertEqual(response.status_code, 200)
         self.assertTrue(
             response.content.index('Oldest content') < response.content.index('Middle content') and
@@ -217,7 +218,7 @@ class AdminViewBasicTest(TestCase):
         Ensure we can sort on a list_display field that is a Model method
         (colunn 3 is 'model_year' in ArticleAdmin)
         """
-        response = self.client.get('/test_admin/%s/admin_views/article/' % self.urlbit, {'ot': 'dsc', 'o': 3})
+        response = self.client.get('/test_admin/%s/admin_views/article/' % self.urlbit, {'o': '-3'})
         self.assertEqual(response.status_code, 200)
         self.assertTrue(
             response.content.index('Newest content') < response.content.index('Middle content') and
@@ -230,12 +231,123 @@ class AdminViewBasicTest(TestCase):
         Ensure we can sort on a list_display field that is a ModelAdmin method
         (colunn 4 is 'modeladmin_year' in ArticleAdmin)
         """
-        response = self.client.get('/test_admin/%s/admin_views/article/' % self.urlbit, {'ot': 'asc', 'o': 4})
+        response = self.client.get('/test_admin/%s/admin_views/article/' % self.urlbit, {'o': '4'})
         self.assertEqual(response.status_code, 200)
         self.assertTrue(
             response.content.index('Oldest content') < response.content.index('Middle content') and
             response.content.index('Middle content') < response.content.index('Newest content'),
             "Results of sorting on ModelAdmin method are out of order."
+        )
+
+    def testChangeListSortingMultiple(self):
+        p1 = Person.objects.create(name="Chris", gender=1, alive=True)
+        p2 = Person.objects.create(name="Chris", gender=2, alive=True)
+        p3 = Person.objects.create(name="Bob", gender=1, alive=True)
+        link = '<a href="%s/'
+
+        # Sort by name, gender
+        # This hard-codes the URL because it'll fail if it runs against the
+        # 'admin2' custom admin (which doesn't have the Person model).
+        response = self.client.get('/test_admin/admin/admin_views/person/', {'o': '1.2'})
+        self.assertEqual(response.status_code, 200)
+        self.assertTrue(
+            response.content.index(link % p3.id) < response.content.index(link % p1.id) and
+            response.content.index(link % p1.id) < response.content.index(link % p2.id)
+        )
+
+        # Sort by gender descending, name
+        response = self.client.get('/test_admin/admin/admin_views/person/', {'o': '-2.1'})
+        self.assertEqual(response.status_code, 200)
+        self.assertTrue(
+            response.content.index(link % p2.id) < response.content.index(link % p3.id) and
+            response.content.index(link % p3.id) < response.content.index(link % p1.id)
+        )
+
+    def testChangeListSortingPreserveQuerySetOrdering(self):
+        # If no ordering on ModelAdmin, or query string, the underlying order of
+        # the queryset should not be changed.
+
+        p1 = Person.objects.create(name="Amy", gender=1, alive=True, age=80)
+        p2 = Person.objects.create(name="Bob", gender=1, alive=True, age=70)
+        p3 = Person.objects.create(name="Chris", gender=2, alive=False, age=60)
+        link = '<a href="%s/'
+
+        # This hard-codes the URL because it'll fail if it runs against the
+        # 'admin2' custom admin (which doesn't have the Person model).
+        response = self.client.get('/test_admin/admin/admin_views/person/', {})
+        self.assertEqual(response.status_code, 200)
+        self.assertTrue(
+            response.content.index(link % p3.id) < response.content.index(link % p2.id) and
+            response.content.index(link % p2.id) < response.content.index(link % p1.id)
+        )
+
+    def testChangeListSortingModelMeta(self):
+        # Test ordering on Model Meta is respected
+
+        l1 = Language.objects.create(iso='ur', name='Urdu')
+        l2 = Language.objects.create(iso='ar', name='Arabic')
+        link = '<a href="%s/'
+
+        response = self.client.get('/test_admin/admin/admin_views/language/', {})
+        self.assertEqual(response.status_code, 200)
+        self.assertTrue(
+            response.content.index(link % l2.pk) < response.content.index(link % l1.pk)
+        )
+
+        # Test we can override with query string
+        response = self.client.get('/test_admin/admin/admin_views/language/', {'o':'-1'})
+        self.assertEqual(response.status_code, 200)
+        self.assertTrue(
+            response.content.index(link % l1.pk) < response.content.index(link % l2.pk)
+        )
+
+    def testChangeListSortingModelAdmin(self):
+        # Test ordering on Model Admin is respected, and overrides Model Meta
+        dt = datetime.datetime.now()
+        p1 = Podcast.objects.create(name="A", release_date=dt)
+        p2 = Podcast.objects.create(name="B", release_date=dt - datetime.timedelta(10))
+
+        link = '<a href="%s/'
+        response = self.client.get('/test_admin/admin/admin_views/podcast/', {})
+        self.assertEqual(response.status_code, 200)
+        self.assertTrue(
+            response.content.index(link % p1.pk) < response.content.index(link % p2.pk)
+        )
+
+    def testMultipleSortSameField(self):
+        # Check that we get the columns we expect if we have two columns
+        # that correspond to the same ordering field
+        dt = datetime.datetime.now()
+        p1 = Podcast.objects.create(name="A", release_date=dt)
+        p2 = Podcast.objects.create(name="B", release_date=dt - datetime.timedelta(10))
+
+        link = '<a href="%s/'
+        response = self.client.get('/test_admin/admin/admin_views/podcast/', {})
+        self.assertEqual(response.status_code, 200)
+        self.assertTrue(
+            response.content.index(link % p1.pk) < response.content.index(link % p2.pk)
+        )
+
+        p1 = ComplexSortedPerson.objects.create(name="Bob", age=10)
+        p2 = ComplexSortedPerson.objects.create(name="Amy", age=20)
+        link = '<a href="%s/'
+
+        response = self.client.get('/test_admin/admin/admin_views/complexsortedperson/', {})
+        self.assertEqual(response.status_code, 200)
+        # Should have 5 columns (including action checkbox col)
+        self.assertContains(response, '<th scope="col"', count=5)
+
+        self.assertContains(response, 'Name')
+        self.assertContains(response, 'Colored name')
+
+        # Check order
+        self.assertTrue(
+            response.content.index('Name') < response.content.index('Colored name')
+        )
+
+        # Check sorting - should be by name
+        self.assertTrue(
+            response.content.index(link % p2.id) < response.content.index(link % p1.id)
         )
 
     def testLimitedFilter(self):
@@ -1956,7 +2068,7 @@ class AdminActionsTest(TestCase):
             'action' : 'external_mail',
             'index': 0,
         }
-        url = '/test_admin/admin/admin_views/externalsubscriber/?ot=asc&o=1'
+        url = '/test_admin/admin/admin_views/externalsubscriber/?o=1'
         response = self.client.post(url, action_data)
         self.assertRedirects(response, url)
 
@@ -3001,3 +3113,50 @@ class DateHierarchyTests(TestCase):
             self.assert_non_localized_year(response, 2000)
             self.assert_non_localized_year(response, 2003)
             self.assert_non_localized_year(response, 2005)
+
+class AdminCustomSaveRelatedTests(TestCase):
+    """
+    Ensure that one can easily customize the way related objects are saved.
+    Refs #16115.
+    """
+    fixtures = ['admin-views-users.xml']
+
+    def setUp(self):
+        self.client.login(username='super', password='secret')
+
+    def test_should_be_able_to_edit_related_objects_on_add_view(self):
+        post = {
+            'child_set-TOTAL_FORMS': '3',
+            'child_set-INITIAL_FORMS': '0',
+            'name': 'Josh Stone',
+            'child_set-0-name': 'Paul',
+            'child_set-1-name': 'Catherine',
+        }
+        response = self.client.post('/test_admin/admin/admin_views/parent/add/', post)
+        self.assertEqual(1, Parent.objects.count())
+        self.assertEqual(2, Child.objects.count())
+
+        children_names = list(Child.objects.order_by('name').values_list('name', flat=True))
+
+        self.assertEqual('Josh Stone', Parent.objects.latest('id').name)
+        self.assertEqual([u'Catherine Stone', u'Paul Stone'], children_names)
+
+    def test_should_be_able_to_edit_related_objects_on_change_view(self):
+        parent = Parent.objects.create(name='Josh Stone')
+        paul = Child.objects.create(parent=parent, name='Paul')
+        catherine = Child.objects.create(parent=parent, name='Catherine')
+        post = {
+            'child_set-TOTAL_FORMS': '5',
+            'child_set-INITIAL_FORMS': '2',
+            'name': 'Josh Stone',
+            'child_set-0-name': 'Paul',
+            'child_set-0-id': paul.id,
+            'child_set-1-name': 'Catherine',
+            'child_set-1-id': catherine.id,
+        }
+        response = self.client.post('/test_admin/admin/admin_views/parent/%s/' % parent.id, post)
+
+        children_names = list(Child.objects.order_by('name').values_list('name', flat=True))
+
+        self.assertEqual('Josh Stone', Parent.objects.latest('id').name)
+        self.assertEqual([u'Catherine Stone', u'Paul Stone'], children_names)

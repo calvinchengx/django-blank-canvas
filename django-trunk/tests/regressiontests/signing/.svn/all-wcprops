@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/16253/django/trunk/tests/regressiontests/signing
+/svn/!svn/ver/16426/django/trunk/tests/regressiontests/signing
 END
 __init__.py
 K 25
@@ -13,7 +13,7 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/svn/!svn/ver/16253/django/trunk/tests/regressiontests/signing/tests.py
+/svn/!svn/ver/16426/django/trunk/tests/regressiontests/signing/tests.py
 END
 models.py
 K 25

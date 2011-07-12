@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/webdesign/templatetags
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:35.000000Z
+2011-07-12T16:57:17.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2007-05-11T09:13:37.733682Z
 5189
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:35.000000Z
+2011-07-12T16:57:17.000000Z
 e9d6bcd132bb9070c59b179f5a128158
 2011-05-01T16:46:02.417197Z
 16138

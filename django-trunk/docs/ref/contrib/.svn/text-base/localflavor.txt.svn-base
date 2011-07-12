@@ -57,12 +57,14 @@ Countries currently supported by :mod:`~django.contrib.localflavor` are:
     * Italy_
     * Japan_
     * Kuwait_
+    * Macedonia_
     * Mexico_
     * `The Netherlands`_
     * Norway_
     * Peru_
     * Poland_
     * Portugal_
+    * Paraguay_
     * Romania_
     * Russia_
     * Slovakia_
@@ -110,8 +112,10 @@ Here's an example of how to use them::
 .. _Italy: `Italy (it)`_
 .. _Japan: `Japan (jp)`_
 .. _Kuwait: `Kuwait (kw)`_
+.. _Macedonia: `Macedonia (mk)`_
 .. _Mexico: `Mexico (mx)`_
 .. _Norway: `Norway (no)`_
+.. _Paraguay: `Paraguay (py)`_
 .. _Peru: `Peru (pe)`_
 .. _Poland: `Poland (pl)`_
 .. _Portugal: `Portugal (pt)`_
@@ -241,7 +245,8 @@ Austria (``at``)
 
 .. class:: at.forms.ATZipCodeField
 
-    A form field that validates its input as an Austrian zip code.
+    A form field that validates its input as an Austrian zip code, with the
+    format XXXX (first digit must be greater than 0).
 
 .. class:: at.forms.ATStateSelect
 
@@ -571,21 +576,33 @@ Iceland (``is_``)
 India (``in_``)
 ===============
 
-.. class:: in.forms.INStateField
+.. class:: in_.forms.INStateField
 
     A form field that validates input as an Indian state/territory name or
     abbreviation. Input is normalized to the standard two-letter vehicle
     registration abbreviation for the given state or territory.
 
-.. class:: in.forms.INZipCodeField
+.. class:: in_.forms.INZipCodeField
 
     A form field that validates input as an Indian zip code, with the
     format XXXXXXX.
 
-.. class:: in.forms.INStateSelect
+.. class:: in_.forms.INStateSelect
 
     A ``Select`` widget that uses a list of Indian states/territories as its
     choices.
+
+.. versionadded:: 1.4
+
+.. class:: in_.forms.INPhoneNumberField
+
+    A form field that validates that the data is a valid Indian phone number,
+    including the STD code. It's normalised to 0XXX-XXXXXXX or 0XXX XXXXXXX
+    format. The first string is the STD code which is a '0' followed by 2-4
+    digits. The second string is 8 digits if the STD code is 3 digits, 7
+    digits if the STD code is 4 digits and 6 digits if the STD code is 5
+    digits. The second string will start with numbers between 1 and 6. The
+    separator is either a space or a hyphen.
 
 Ireland (``ie``)
 ================
@@ -652,8 +669,6 @@ Israel (``il``)
 .. _Israeli identification number: http://he.wikipedia.org/wiki/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%96%D7%94%D7%95%D7%AA_(%D7%99%D7%A9%D7%A8%D7%90%D7%9C)
 .. _Luhn algorithm: http://en.wikipedia.org/wiki/Luhn_algorithm
 
-
-
 Italy (``it``)
 ==============
 
@@ -705,6 +720,57 @@ Kuwait (``kw``)
     * The birthdate of the person is a valid date.
     * The calculated checksum equals to the last digit of the Civil ID.
 
+Macedonia (``mk``)
+===================
+
+.. versionadded:: 1.4
+
+.. class:: mk.forms.MKIdentityCardNumberField
+
+    A form field that validates input as a Macedonian identity card number.
+    Both old and new identity card numbers are supported.
+
+
+.. class:: mk.forms.MKMunicipalitySelect
+
+    A form ``Select`` widget that uses a list of Macedonian municipalities as
+    choices.
+
+
+.. class:: mk.forms.UMCNField
+
+    A form field that validates input as a unique master citizen
+    number.
+
+    The format of the unique master citizen number is not unique
+    to Macedonia. For more information see:
+    https://secure.wikimedia.org/wikipedia/en/wiki/Unique_Master_Citizen_Number
+
+    A value will pass validation if it complies to the following rules:
+
+    * Consists of exactly 13 digits
+    * The first 7 digits represent a valid past date in the format DDMMYYY
+    * The last digit of the UMCN passes a checksum test
+
+
+.. class:: mk.models.MKIdentityCardNumberField
+
+   A model field that forms represent as a
+   ``forms.MKIdentityCardNumberField`` field.
+
+
+.. class:: mk.models.MKMunicipalityField
+
+   A model field that forms represent as a
+   ``forms.MKMunicipalitySelect`` and stores the 2 character code of the
+   municipality in the database.
+
+
+.. class:: mk.models.UMCNField
+
+   A model field that forms represent as a ``forms.UMCNField`` field.
+
+
 Mexico (``mx``)
 ===============
 
@@ -731,6 +797,19 @@ Norway (``no``)
 
     A ``Select`` widget that uses a list of Norwegian municipalities (fylker) as
     its choices.
+
+Paraguay (``py``)
+=================
+
+.. versionadded:: 1.4
+
+.. class:: py.forms.PyDepartmentSelect
+
+    A ``Select`` widget with a list of Paraguayan departments as choices.
+
+.. class:: py.forms.PyNumberedDepartmentSelect
+
+    A ``Select`` widget with a roman numbered list of Paraguayan departments as choices.
 
 Peru (``pe``)
 =============
@@ -1008,7 +1087,7 @@ Switzerland (``ch``)
 
     A form field that validates input as a Swiss identity card number.
     A valid number must confirm to the X1234567<0 or 1234567890 format and
-    have the correct checksums -- see http://adi.kousz.ch/artikel/IDCHE.htm.
+    have the correct checksums.
 
 .. class:: ch.forms.CHPhoneNumberField
 

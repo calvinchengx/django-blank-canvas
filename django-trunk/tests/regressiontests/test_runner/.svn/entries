@@ -1,15 +1,15 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/test_runner
 http://code.djangoproject.com/svn
 
 
 
-2011-04-02T13:26:39.102144Z
-15997
-russellm
+2011-06-12T12:34:10.047806Z
+16382
+ramiro
 
 
 
@@ -26,13 +26,19 @@ russellm
 
 bcc190cf-cafb-0310-a4f2-bffc1f526a37
 
+valid_app
+dir
+
+invalid_app
+dir
+
 __init__.py
 file
 
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:21.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2009-12-13T17:08:36.969254Z
 11846
@@ -66,11 +72,11 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
-5015d4a8fb2aecf2fd9e0741d7042bb5
-2011-04-02T13:26:39.102144Z
-15997
-russellm
+2011-07-12T16:57:21.000000Z
+0ad870eba1b5358235399dff679fbbe5
+2011-06-12T12:34:10.047806Z
+16382
+ramiro
 has-props
 
 
@@ -92,7 +98,7 @@ has-props
 
 
 
-4475
+8056
 
 models.py
 file
@@ -100,7 +106,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:21.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2009-12-13T17:08:36.969254Z
 11846

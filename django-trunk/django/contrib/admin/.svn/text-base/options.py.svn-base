@@ -189,6 +189,12 @@ class BaseModelAdmin(object):
         return None
     declared_fieldsets = property(_declared_fieldsets)
 
+    def get_ordering(self, request):
+        """
+        Hook for specifying field ordering.
+        """
+        return self.ordering or ()  # otherwise we might try to *None, which is bad ;)
+
     def get_readonly_fields(self, request, obj=None):
         """
         Hook for specifying custom readonly fields.
@@ -208,7 +214,7 @@ class BaseModelAdmin(object):
         """
         qs = self.model._default_manager.get_query_set()
         # TODO: this should be handled by some parameter to the ChangeList.
-        ordering = self.ordering or () # otherwise we might try to *None, which is bad ;)
+        ordering = self.get_ordering(request)
         if ordering:
             qs = qs.order_by(*ordering)
         return qs
@@ -259,6 +265,7 @@ class BaseModelAdmin(object):
                 return True
             clean_lookup = LOOKUP_SEP.join(parts)
             return clean_lookup in self.list_filter or clean_lookup == self.date_hierarchy
+
 
 class ModelAdmin(BaseModelAdmin):
     "Encapsulates all admin options and functionality for a given model."
@@ -342,19 +349,19 @@ class ModelAdmin(BaseModelAdmin):
     urls = property(urls)
 
     def _media(self):
-        from django.conf import settings
-
-        js = ['js/core.js', 'js/admin/RelatedObjectLookups.js',
-              'js/jquery.min.js', 'js/jquery.init.js']
+        js = [
+            'core.js',
+            'admin/RelatedObjectLookups.js',
+            'jquery.min.js',
+            'jquery.init.js'
+        ]
         if self.actions is not None:
-            js.extend(['js/actions.min.js'])
+            js.append('actions.min.js')
         if self.prepopulated_fields:
-            js.append('js/urlify.js')
-            js.append('js/prepopulate.min.js')
+            js.extend(['urlify.js', 'prepopulate.min.js'])
         if self.opts.get_ordered_objects():
-            js.extend(['js/getElementsBySelector.js', 'js/dom-drag.js' , 'js/admin/ordering.js'])
-
-        return forms.Media(js=['%s%s' % (settings.ADMIN_MEDIA_PREFIX, url) for url in js])
+            js.extend(['getElementsBySelector.js', 'dom-drag.js' , 'admin/ordering.js'])
+        return forms.Media(js=['admin/js/%s' % url for url in js])
     media = property(_media)
 
     def has_add_permission(self, request):
@@ -426,7 +433,6 @@ class ModelAdmin(BaseModelAdmin):
             exclude = []
         else:
             exclude = list(self.exclude)
-        exclude.extend(kwargs.get("exclude", []))
         exclude.extend(self.get_readonly_fields(request, obj))
         # if exclude is an empty list we pass None to be consistant with the
         # default on modelform_factory
@@ -625,6 +631,13 @@ class ModelAdmin(BaseModelAdmin):
             description = capfirst(action.replace('_', ' '))
         return func, action, description
 
+    def get_list_display(self, request):
+        """
+        Return a sequence containing the fields to be displayed on the
+        changelist.
+        """
+        return self.list_display
+
     def construct_change_message(self, request, form, formsets):
         """
         Construct a change message from a changed object.
@@ -682,6 +695,18 @@ class ModelAdmin(BaseModelAdmin):
         Given an inline formset save it to the database.
         """
         formset.save()
+
+    def save_related(self, request, form, formsets, change):
+        """
+        Given the ``HttpRequest``, the parent ``ModelForm`` instance, the
+        list of inline formsets and a boolean value based on whether the
+        parent is being added or changed, save the related objects to the
+        database. Note that at this point save_form() and save_model() have
+        already been called.
+        """
+        form.save_m2m()
+        for formset in formsets:
+            self.save_formset(request, form, formset, change=change)
 
     def render_change_form(self, request, context, add=False, change=False, form_url='', obj=None):
         opts = self.model._meta
@@ -886,11 +911,8 @@ class ModelAdmin(BaseModelAdmin):
                                   prefix=prefix, queryset=inline.queryset(request))
                 formsets.append(formset)
             if all_valid(formsets) and form_validated:
-                self.save_model(request, new_object, form, change=False)
-                form.save_m2m()
-                for formset in formsets:
-                    self.save_formset(request, form, formset, change=False)
-
+                self.save_model(request, new_object, form, False)
+                self.save_related(request, form, formsets, False)
                 self.log_addition(request, new_object)
                 return self.response_add(request, new_object)
         else:
@@ -988,11 +1010,8 @@ class ModelAdmin(BaseModelAdmin):
                 formsets.append(formset)
 
             if all_valid(formsets) and form_validated:
-                self.save_model(request, new_object, form, change=True)
-                form.save_m2m()
-                for formset in formsets:
-                    self.save_formset(request, form, formset, change=True)
-
+                self.save_model(request, new_object, form, True)
+                self.save_related(request, form, formsets, True)
                 change_message = self.construct_change_message(request, form, formsets)
                 self.log_change(request, new_object, change_message)
                 return self.response_change(request, new_object)
@@ -1053,7 +1072,7 @@ class ModelAdmin(BaseModelAdmin):
         actions = self.get_actions(request)
 
         # Remove action checkboxes if there aren't any actions available.
-        list_display = list(self.list_display)
+        list_display = list(self.get_list_display(request))
         if not actions:
             try:
                 list_display.remove('action_checkbox')
@@ -1308,14 +1327,12 @@ class InlineModelAdmin(BaseModelAdmin):
             self.verbose_name_plural = self.model._meta.verbose_name_plural
 
     def _media(self):
-        from django.conf import settings
-        js = ['js/jquery.min.js', 'js/jquery.init.js', 'js/inlines.min.js']
+        js = ['jquery.min.js', 'jquery.init.js', 'inlines.min.js']
         if self.prepopulated_fields:
-            js.append('js/urlify.js')
-            js.append('js/prepopulate.min.js')
+            js.extend(['urlify.js, prepopulate.min.js'])
         if self.filter_vertical or self.filter_horizontal:
-            js.extend(['js/SelectBox.js' , 'js/SelectFilter2.js'])
-        return forms.Media(js=['%s%s' % (settings.ADMIN_MEDIA_PREFIX, url) for url in js])
+            js.extend(['SelectBox.js', 'SelectFilter2.js'])
+        return forms.Media(js=['admin/js/%s' % url for url in js])
     media = property(_media)
 
     def get_formset(self, request, obj=None, **kwargs):
@@ -1328,7 +1345,6 @@ class InlineModelAdmin(BaseModelAdmin):
             exclude = []
         else:
             exclude = list(self.exclude)
-        exclude.extend(kwargs.get("exclude", []))
         exclude.extend(self.get_readonly_fields(request, obj))
         # if exclude is an empty list we use None, since that's the actual
         # default
@@ -1350,7 +1366,7 @@ class InlineModelAdmin(BaseModelAdmin):
     def get_fieldsets(self, request, obj=None):
         if self.declared_fieldsets:
             return self.declared_fieldsets
-        form = self.get_formset(request).form
+        form = self.get_formset(request, obj).form
         fields = form.base_fields.keys() + list(self.get_readonly_fields(request, obj))
         return [(None, {'fields': fields})]
 

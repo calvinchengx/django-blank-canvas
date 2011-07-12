@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/16252/django/trunk/django/db/models/sql
+/svn/!svn/ver/16522/django/trunk/django/db/models/sql
 END
 aggregates.py
 K 25
@@ -13,7 +13,7 @@ compiler.py
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/16180/django/trunk/django/db/models/sql/compiler.py
+/svn/!svn/ver/16522/django/trunk/django/db/models/sql/compiler.py
 END
 where.py
 K 25
@@ -49,7 +49,7 @@ query.py
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/16252/django/trunk/django/db/models/sql/query.py
+/svn/!svn/ver/16473/django/trunk/django/db/models/sql/query.py
 END
 subqueries.py
 K 25

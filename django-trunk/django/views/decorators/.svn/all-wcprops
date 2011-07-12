@@ -1,13 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/16192/django/trunk/django/views/decorators
+/svn/!svn/ver/16339/django/trunk/django/views/decorators
 END
 gzip.py
 K 25
 svn:wc:ra_dav:version-url
 V 64
 /svn/!svn/ver/15161/django/trunk/django/views/decorators/gzip.py
+END
+clickjacking.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/16298/django/trunk/django/views/decorators/clickjacking.py
 END
 csrf.py
 K 25
@@ -37,5 +43,11 @@ cache.py
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/16138/django/trunk/django/views/decorators/cache.py
+/svn/!svn/ver/16338/django/trunk/django/views/decorators/cache.py
+END
+debug.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/16339/django/trunk/django/views/decorators/debug.py
 END

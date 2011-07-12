@@ -8,7 +8,7 @@ Overview
 ========
 In general, GeoDjango installation requires:
 
-1. :ref:`python24` and :ref:`django`
+1. Python and :ref:`django`
 2. :ref:`spatial_database`
 3. :ref:`geospatial_libs`
 
@@ -32,22 +32,10 @@ instructions are available for:
 Requirements
 ============
 
-.. _python24:
-
-Python 2.4+
------------
-
-Python 2.4 is the minimum version supported by Django, however Python 2.5+ is
-recommended because the `ctypes`__ module comes included; otherwise, 2.4 users
-will need to `download and install ctypes`__.
-
-__ http://docs.python.org/lib/module-ctypes.html
-__ http://sourceforge.net/projects/ctypes/files/
-
 .. _django:
 
-Django
-------
+Python and Django
+-----------------
 
 Because GeoDjango is included with Django, please refer to Django's
 :doc:`installation instructions </intro/install>` for details on how to install.
@@ -184,9 +172,9 @@ If using a binary package of GEOS (e.g., on Ubuntu), you may need to :ref:`binut
 ~~~~~~~~~~~~~~~~~~~~~
 
 If your GEOS library is in a non-standard location, or you don't want to
-modify the system's library path then the :setting:`GEOS_LIBRARY_PATH`  setting
-may be added to your Django settings file with the full path to the GEOS
-C library.  For example::
+modify the system's library path then the :setting:`GEOS_LIBRARY_PATH`
+setting may be added to your Django settings file with the full path to the
+GEOS C library.  For example::
 
     GEOS_LIBRARY_PATH = '/home/bob/local/lib/libgeos_c.so'
 
@@ -592,8 +580,8 @@ Now, the ``spatialite`` command can be used to initialize a spatial database::
 __ http://www.gaia-gis.it/spatialite/resources.html
 
 
-Add ``django.contrib.gis`` to ``INSTALLED_APPS``
-------------------------------------------------
+Add ``django.contrib.gis`` to :setting:`INSTALLED_APPS`
+-------------------------------------------------------
 
 Like other Django contrib applications, you will *only* need to add
 :mod:`django.contrib.gis` to :setting:`INSTALLED_APPS` in your settings.
@@ -904,10 +892,10 @@ Summary::
 
         export PATH=/opt/local/bin:/opt/local/lib/postgresql83/bin
 
-    In addition, add the ``FALLBACK_DYLD_LIBRARY_PATH`` setting so that
+    In addition, add the ``DYLD_FALLBACK_LIBRARY_PATH`` setting so that
     the libraries can be found by Python::
 
-        export FALLBACK_DYLD_LIBRARY_PATH=/opt/local/lib:/opt/local/lib/postgresql83
+        export DYLD_FALLBACK_LIBRARY_PATH=/opt/local/lib:/opt/local/lib/postgresql83
 
 __ http://www.macports.org/
 
@@ -1034,7 +1022,6 @@ Required package information:
 * ``flex``: required to build PostGIS
 * ``postgresql-8.1``
 * ``postgresql-server-dev-8.1``: for ``pg_config``
-* ``python-ctypes``: Python 2.4 needs to have ctypes installed separately
 * ``python-psycopg2``
 * ``python-setuptools``: for ``easy_install``
 
@@ -1110,7 +1097,7 @@ Python
 ^^^^^^
 
 First, download the latest `Python 2.7 installer`__ from the Python Web site.
-Next, run the installer and keep the defaults -- for example, keep 
+Next, run the installer and keep the defaults -- for example, keep
 'Install for all users' checked and the installation path set as
 ``C:\Python27``.
 
@@ -1165,7 +1152,7 @@ tree and select :menuselection:`PostGIS 1.5 for PostgreSQL 9.0`.
 
 After clicking next, you will be prompted to select your mirror, PostGIS
 will be downloaded, and the PostGIS installer will begin.  Select only the
-default options during install (e.g., do not uncheck the option to create a 
+default options during install (e.g., do not uncheck the option to create a
 default PostGIS database).
 
 .. note::
@@ -1216,7 +1203,7 @@ executable with ``cmd.exe``, will set this up::
      reg ADD "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v PROJ_LIB /t REG_EXPAND_SZ /f /d "%PROJ_LIB%"
 
 For your convenience, these commands are available in the execuatble batch
-script, :download:`geodjango_setup.bat`.  
+script, :download:`geodjango_setup.bat`.
 
 .. note::
 

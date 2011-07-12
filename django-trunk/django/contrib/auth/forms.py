@@ -1,11 +1,14 @@
-from django.contrib.auth.models import User
+from django import forms
+from django.template import Context, loader
+from django.utils.http import int_to_base36
+from django.utils.itercompat import any
+from django.utils.translation import ugettext_lazy as _
+
+from django.contrib.auth.models import User, UNUSABLE_PASSWORD
 from django.contrib.auth import authenticate
 from django.contrib.auth.tokens import default_token_generator
 from django.contrib.sites.models import get_current_site
-from django.template import Context, loader
-from django import forms
-from django.utils.translation import ugettext_lazy as _
-from django.utils.http import int_to_base36
+
 
 class UserCreationForm(forms.ModelForm):
     """
@@ -114,14 +117,18 @@ class PasswordResetForm(forms.Form):
         email = self.cleaned_data["email"]
         self.users_cache = User.objects.filter(
                                 email__iexact=email,
-                                is_active=True
-                            )
-        if len(self.users_cache) == 0:
+                                is_active=True)
+        if not len(self.users_cache):
             raise forms.ValidationError(_("That e-mail address doesn't have an associated user account. Are you sure you've registered?"))
+        if any((user.password == UNUSABLE_PASSWORD) for user in self.users_cache):
+            raise forms.ValidationError(_("The user account associated with this e-mail address cannot reset the password."))
         return email
 
-    def save(self, domain_override=None, email_template_name='registration/password_reset_email.html',
-             use_https=False, token_generator=default_token_generator, from_email=None, request=None):
+    def save(self, domain_override=None,
+             subject_template_name='registration/password_reset_subject.txt',
+             email_template_name='registration/password_reset_email.html',
+             use_https=False, token_generator=default_token_generator,
+             from_email=None, request=None):
         """
         Generates a one-use only link for resetting password and sends to the user
         """
@@ -133,7 +140,6 @@ class PasswordResetForm(forms.Form):
                 domain = current_site.domain
             else:
                 site_name = domain = domain_override
-            t = loader.get_template(email_template_name)
             c = {
                 'email': user.email,
                 'domain': domain,
@@ -143,8 +149,11 @@ class PasswordResetForm(forms.Form):
                 'token': token_generator.make_token(user),
                 'protocol': use_https and 'https' or 'http',
             }
-            send_mail(_("Password reset on %s") % site_name,
-                t.render(Context(c)), from_email, [user.email])
+            subject = loader.render_to_string(subject_template_name, c)
+            # Email subject *must not* contain newlines
+            subject = ''.join(subject.splitlines())
+            email = loader.render_to_string(email_template_name, c)
+            send_mail(subject, email, from_email, [user.email])
 
 class SetPasswordForm(forms.Form):
     """

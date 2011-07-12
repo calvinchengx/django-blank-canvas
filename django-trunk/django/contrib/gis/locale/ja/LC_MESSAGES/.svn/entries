@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/gis/locale/ja/LC_MESSAGES
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:35:17.000000Z
+2011-07-12T16:56:44.000000Z
 240d7e27f4ad550056e6e7cc615199c9
 2011-03-15T20:09:41.547272Z
 15831
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:35:17.000000Z
+2011-07-12T16:56:44.000000Z
 fba9c10743706b393d40ba207484455b
 2011-03-15T20:09:41.547272Z
 15831

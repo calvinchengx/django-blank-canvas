@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/svn/!svn/ver/16276/django/trunk/django/utils
+/svn/!svn/ver/16531/django/trunk/django/utils
 END
 termcolors.py
 K 25
@@ -19,7 +19,7 @@ autoreload.py
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/15911/django/trunk/django/utils/autoreload.py
+/svn/!svn/ver/16326/django/trunk/django/utils/autoreload.py
 END
 baseconv.py
 K 25
@@ -45,17 +45,17 @@ svn:wc:ra_dav:version-url
 V 58
 /svn/!svn/ver/10088/django/trunk/django/utils/importlib.py
 END
-stopwords.py
-K 25
-svn:wc:ra_dav:version-url
-V 57
-/svn/!svn/ver/5609/django/trunk/django/utils/stopwords.py
-END
 html.py
 K 25
 svn:wc:ra_dav:version-url
 V 53
 /svn/!svn/ver/16118/django/trunk/django/utils/html.py
+END
+stopwords.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5609/django/trunk/django/utils/stopwords.py
 END
 safestring.py
 K 25
@@ -97,7 +97,7 @@ datastructures.py
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/16260/django/trunk/django/utils/datastructures.py
+/svn/!svn/ver/16418/django/trunk/django/utils/datastructures.py
 END
 _threading_local.py
 K 25
@@ -109,7 +109,7 @@ http.py
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/16064/django/trunk/django/utils/http.py
+/svn/!svn/ver/16349/django/trunk/django/utils/http.py
 END
 _os.py
 K 25
@@ -133,7 +133,13 @@ module_loading.py
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/16075/django/trunk/django/utils/module_loading.py
+/svn/!svn/ver/16531/django/trunk/django/utils/module_loading.py
+END
+ipv6.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/16366/django/trunk/django/utils/ipv6.py
 END
 synch.py
 K 25
@@ -157,7 +163,7 @@ functional.py
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/16157/django/trunk/django/utils/functional.py
+/svn/!svn/ver/16308/django/trunk/django/utils/functional.py
 END
 cache.py
 K 25
@@ -175,7 +181,7 @@ itercompat.py
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/15944/django/trunk/django/utils/itercompat.py
+/svn/!svn/ver/16349/django/trunk/django/utils/itercompat.py
 END
 feedgenerator.py
 K 25
@@ -199,13 +205,19 @@ log.py
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/15967/django/trunk/django/utils/log.py
+/svn/!svn/ver/16444/django/trunk/django/utils/log.py
 END
 text.py
 K 25
 svn:wc:ra_dav:version-url
 V 53
 /svn/!svn/ver/14876/django/trunk/django/utils/text.py
+END
+jslex.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/16333/django/trunk/django/utils/jslex.py
 END
 checksums.py
 K 25
@@ -235,5 +247,5 @@ hashcompat.py
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/15944/django/trunk/django/utils/hashcompat.py
+/svn/!svn/ver/16349/django/trunk/django/utils/hashcompat.py
 END

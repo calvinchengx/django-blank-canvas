@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/15988/django/trunk/django/contrib/sessions
+/svn/!svn/ver/16467/django/trunk/django/contrib/sessions
 END
 middleware.py
 K 25
@@ -19,7 +19,7 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/15954/django/trunk/django/contrib/sessions/tests.py
+/svn/!svn/ver/16467/django/trunk/django/contrib/sessions/tests.py
 END
 models.py
 K 25

@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/15728/django/trunk/django/contrib/sitemaps
+/svn/!svn/ver/16476/django/trunk/django/contrib/sitemaps
 END
 views.py
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/14883/django/trunk/django/contrib/sitemaps/views.py
+/svn/!svn/ver/16476/django/trunk/django/contrib/sitemaps/views.py
 END
 __init__.py
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/svn/!svn/ver/14141/django/trunk/django/contrib/sitemaps/__init__.py
+/svn/!svn/ver/16474/django/trunk/django/contrib/sitemaps/__init__.py
 END
 models.py
 K 25

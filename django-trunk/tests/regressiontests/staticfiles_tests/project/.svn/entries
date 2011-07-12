@@ -1,14 +1,14 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/staticfiles_tests/project
 http://code.djangoproject.com/svn
 
 
 
-2011-03-18T18:47:08.188894Z
-15878
+2011-07-06T10:28:18.187096Z
+16519
 jezdez
 
 
@@ -30,5 +30,8 @@ documents
 dir
 
 site_media
+dir
+
+prefixed
 dir
 

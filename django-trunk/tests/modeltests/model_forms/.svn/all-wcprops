@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/16063/django/trunk/tests/modeltests/model_forms
+/svn/!svn/ver/16391/django/trunk/tests/modeltests/model_forms
 END
 test.png
 K 25
@@ -25,17 +25,11 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 70
-/svn/!svn/ver/15655/django/trunk/tests/modeltests/model_forms/tests.py
-END
-mforms.py
-K 25
-svn:wc:ra_dav:version-url
-V 71
-/svn/!svn/ver/15167/django/trunk/tests/modeltests/model_forms/mforms.py
+/svn/!svn/ver/16391/django/trunk/tests/modeltests/model_forms/tests.py
 END
 models.py
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/svn/!svn/ver/16063/django/trunk/tests/modeltests/model_forms/models.py
+/svn/!svn/ver/16358/django/trunk/tests/modeltests/model_forms/models.py
 END

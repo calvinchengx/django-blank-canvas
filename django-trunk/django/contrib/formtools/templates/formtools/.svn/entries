@@ -1,14 +1,14 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/formtools/templates/formtools
 http://code.djangoproject.com/svn
 
 
 
-2011-04-20T17:41:04.603731Z
-16051
+2011-06-04T21:51:13.826553Z
+16330
 lukeplant
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2011-05-28T07:35:33.000000Z
-a855d25fdb945f74bbca4c79fabdd912
-2011-04-20T17:41:04.603731Z
-16051
+2011-07-12T16:56:48.000000Z
+a68b408f848f8686963c658b4693a9ad
+2011-06-04T21:51:13.826553Z
+16330
 lukeplant
 has-props
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-768
+766
 
 form.html
 file
@@ -66,10 +66,10 @@ file
 
 
 
-2011-05-28T07:35:33.000000Z
-7a1f69a10063708a5b27b766191c3f51
-2011-04-20T17:41:04.603731Z
-16051
+2011-07-12T16:56:48.000000Z
+e0466d288e9fd09305942d2097d23e44
+2011-06-04T21:51:13.826553Z
+16330
 lukeplant
 has-props
 
@@ -92,5 +92,5 @@ has-props
 
 
 
-356
+355
 

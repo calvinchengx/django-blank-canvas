@@ -1,15 +1,15 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/i18n/commands/templates
 http://code.djangoproject.com/svn
 
 
 
-2011-04-18T20:00:10.073973Z
-16038
-ramiro
+2011-06-19T19:25:26.426606Z
+16440
+jezdez
 
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:44.000000Z
+2011-07-12T16:57:23.000000Z
 d24bc14ef8d1282c8034a886c2f52d25
 2011-04-18T20:00:10.073973Z
 16038
@@ -60,17 +60,17 @@ ramiro
 
 1975
 
-template_with_error.txt
+template_with_error.tpl
 file
 
 
 
 
-2011-05-28T07:36:44.000000Z
+2011-07-12T16:57:23.000000Z
 ab3b88b023d8b3d40319cb2712591e59
-2010-12-04T17:42:54.632273Z
-14813
-ramiro
+2011-06-19T19:25:26.426606Z
+16440
+jezdez
 
 
 

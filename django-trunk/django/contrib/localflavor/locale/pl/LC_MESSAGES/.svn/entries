@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/localflavor/locale/pl/LC_MESSAGES
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:22.000000Z
+2011-07-12T16:57:09.000000Z
 953c5fdb89fb013d1aae96b78fc17cd0
 2011-03-15T20:11:04.579252Z
 15833
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:22.000000Z
+2011-07-12T16:57:09.000000Z
 67f5c6e6b84390ca7d73a29cdc6cafba
 2011-03-15T20:11:04.579252Z
 15833

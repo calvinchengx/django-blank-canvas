@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/forms/extras
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:35:03.000000Z
+2011-07-12T16:56:41.000000Z
 550371dab1160eb299fef8189904a8f3
 2008-07-19T01:22:26.475845Z
 7971
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:35:03.000000Z
+2011-07-12T16:56:41.000000Z
 2e5049324dcfaa2f70bab22255882188
 2011-03-28T02:11:19.396508Z
 15927

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/15872/django/trunk/docs/ref/contrib/gis
+/svn/!svn/ver/16484/django/trunk/docs/ref/contrib/gis
 END
 create_template_postgis-1.4.sh
 K 25
@@ -31,7 +31,7 @@ geoip.txt
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/13098/django/trunk/docs/ref/contrib/gis/geoip.txt
+/svn/!svn/ver/16290/django/trunk/docs/ref/contrib/gis/geoip.txt
 END
 tutorial.txt
 K 25
@@ -49,7 +49,7 @@ install.txt
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/15872/django/trunk/docs/ref/contrib/gis/install.txt
+/svn/!svn/ver/16364/django/trunk/docs/ref/contrib/gis/install.txt
 END
 index.txt
 K 25
@@ -79,7 +79,7 @@ testing.txt
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/15055/django/trunk/docs/ref/contrib/gis/testing.txt
+/svn/!svn/ver/16289/django/trunk/docs/ref/contrib/gis/testing.txt
 END
 deployment.txt
 K 25
@@ -109,7 +109,7 @@ admin.txt
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/15534/django/trunk/docs/ref/contrib/gis/admin.txt
+/svn/!svn/ver/16484/django/trunk/docs/ref/contrib/gis/admin.txt
 END
 layermapping.txt
 K 25

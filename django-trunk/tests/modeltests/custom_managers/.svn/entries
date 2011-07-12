@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/modeltests/custom_managers
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:37.000000Z
+2011-07-12T16:57:18.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2007-08-12T12:49:01.338903Z
 5876
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:37.000000Z
+2011-07-12T16:57:18.000000Z
 ee376fbf1df13b3112c3b3c8f8e30c61
 2010-09-12T20:02:57.958852Z
 13774
@@ -100,7 +100,7 @@ file
 
 
 
-2011-05-28T07:36:37.000000Z
+2011-07-12T16:57:18.000000Z
 7dea533fbcf0d098ddf5d8ab58baaef8
 2010-09-12T20:02:57.958852Z
 13774

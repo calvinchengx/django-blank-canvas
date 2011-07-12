@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 79
-/svn/!svn/ver/15782/django/trunk/django/contrib/staticfiles/management/commands
+/svn/!svn/ver/16525/django/trunk/django/contrib/staticfiles/management/commands
 END
 findstatic.py
 K 25
@@ -19,7 +19,7 @@ collectstatic.py
 K 25
 svn:wc:ra_dav:version-url
 V 96
-/svn/!svn/ver/15782/django/trunk/django/contrib/staticfiles/management/commands/collectstatic.py
+/svn/!svn/ver/16525/django/trunk/django/contrib/staticfiles/management/commands/collectstatic.py
 END
 __init__.py
 K 25

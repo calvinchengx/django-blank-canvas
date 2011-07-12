@@ -17,20 +17,22 @@ except ImportError:
         # Python 2.6 and greater
         from urlparse import parse_qsl
     except ImportError:
-        # Python 2.5, 2.4.  Works on Python 2.6 but raises
-        # PendingDeprecationWarning
+        # Python 2.5.  Works on Python 2.6 but raises PendingDeprecationWarning
         from cgi import parse_qsl
 
 import Cookie
 # httponly support exists in Python 2.6's Cookie library,
-# but not in Python 2.4 or 2.5.
+# but not in Python 2.5.
 _morsel_supports_httponly = Cookie.Morsel._reserved.has_key('httponly')
 # Some versions of Python 2.7 and later won't need this encoding bug fix:
 _cookie_encodes_correctly = Cookie.SimpleCookie().value_encode(';') == (';', '"\\073"')
 # See ticket #13007, http://bugs.python.org/issue2193 and http://trac.edgewall.org/ticket/2256
 _tc = Cookie.SimpleCookie()
-_tc.load('f:oo')
-_cookie_allows_colon_in_names = 'Set-Cookie: f:oo=' in _tc.output()
+try:
+    _tc.load('foo:bar=1')
+    _cookie_allows_colon_in_names = True
+except Cookie.CookieError:
+    _cookie_allows_colon_in_names = False
 
 if _morsel_supports_httponly and _cookie_encodes_correctly and _cookie_allows_colon_in_names:
     SimpleCookie = Cookie.SimpleCookie
@@ -52,18 +54,10 @@ else:
                 if "httponly" in self:
                     output += "; httponly"
                 return output
+    else:
+        Morsel = Cookie.Morsel
 
     class SimpleCookie(Cookie.SimpleCookie):
-        if not _morsel_supports_httponly:
-            def __set(self, key, real_value, coded_value):
-                M = self.get(key, Morsel())
-                M.set(key, real_value, coded_value)
-                dict.__setitem__(self, key, M)
-
-            def __setitem__(self, key, value):
-                rval, cval = self.value_encode(value)
-                self.__set(key, rval, cval)
-
         if not _cookie_encodes_correctly:
             def value_encode(self, val):
                 # Some browsers do not support quoted-string from RFC 2109,
@@ -89,25 +83,23 @@ else:
 
                 return val, encoded
 
-        if not _cookie_allows_colon_in_names:
-            def load(self, rawdata, ignore_parse_errors=False):
-                if ignore_parse_errors:
-                    self.bad_cookies = []
-                    self._BaseCookie__set = self._loose_set
+        if not _cookie_allows_colon_in_names or not _morsel_supports_httponly:
+            def load(self, rawdata):
+                self.bad_cookies = set()
                 super(SimpleCookie, self).load(rawdata)
-                if ignore_parse_errors:
-                    self._BaseCookie__set = self._strict_set
-                    for key in self.bad_cookies:
-                        del self[key]
+                for key in self.bad_cookies:
+                    del self[key]
 
-            _strict_set = Cookie.BaseCookie._BaseCookie__set
-
-            def _loose_set(self, key, real_value, coded_value):
+            # override private __set() method:
+            # (needed for using our Morsel, and for laxness with CookieError
+            def _BaseCookie__set(self, key, real_value, coded_value):
                 try:
-                    self._strict_set(key, real_value, coded_value)
+                    M = self.get(key, Morsel())
+                    M.set(key, real_value, coded_value)
+                    dict.__setitem__(self, key, M)
                 except Cookie.CookieError:
-                    self.bad_cookies.append(key)
-                    dict.__setitem__(self, key, None)
+                    self.bad_cookies.add(key)
+                    dict.__setitem__(self, key, Cookie.Morsel())
 
 
 class CompatCookie(SimpleCookie):
@@ -135,6 +127,53 @@ class Http404(Exception):
 
 RAISE_ERROR = object()
 
+
+def build_request_repr(request, path_override=None, GET_override=None,
+                       POST_override=None, COOKIES_override=None,
+                       META_override=None):
+    """
+    Builds and returns the request's representation string. The request's
+    attributes may be overridden by pre-processed values.
+    """
+    # Since this is called as part of error handling, we need to be very
+    # robust against potentially malformed input.
+    try:
+        get = (pformat(GET_override)
+               if GET_override is not None
+               else pformat(request.GET))
+    except:
+        get = '<could not parse>'
+    if request._post_parse_error:
+        post = '<could not parse>'
+    else:
+        try:
+            post = (pformat(POST_override)
+                    if POST_override is not None
+                    else pformat(request.POST))
+        except:
+            post = '<could not parse>'
+    try:
+        cookies = (pformat(COOKIES_override)
+                   if COOKIES_override is not None
+                   else pformat(request.COOKIES))
+    except:
+        cookies = '<could not parse>'
+    try:
+        meta = (pformat(META_override)
+                if META_override is not None
+                else pformat(request.META))
+    except:
+        meta = '<could not parse>'
+    path = path_override if path_override is not None else request.path
+    return smart_str(u'<%s\npath:%s,\nGET:%s,\nPOST:%s,\nCOOKIES:%s,\nMETA:%s>' %
+                     (request.__class__.__name__,
+                      path,
+                      unicode(get),
+                      unicode(post),
+                      unicode(cookies),
+                      unicode(meta)))
+
+
 class HttpRequest(object):
     """A basic HTTP request."""
 
@@ -147,11 +186,10 @@ class HttpRequest(object):
         self.path = ''
         self.path_info = ''
         self.method = None
+        self._post_parse_error = False
 
     def __repr__(self):
-        return '<HttpRequest\nGET:%s,\nPOST:%s,\nCOOKIES:%s,\nMETA:%s>' % \
-            (pformat(self.GET), pformat(self.POST), pformat(self.COOKIES),
-            pformat(self.META))
+        return build_request_repr(self)
 
     def get_host(self):
         """Returns the HTTP host using the environment or request headers."""
@@ -263,17 +301,7 @@ class HttpRequest(object):
         if not hasattr(self, '_raw_post_data'):
             if self._read_started:
                 raise Exception("You cannot access raw_post_data after reading from request's data stream")
-            try:
-                content_length = int(self.META.get('CONTENT_LENGTH', 0))
-            except (ValueError, TypeError):
-                # If CONTENT_LENGTH was empty string or not an integer, don't
-                # error out. We've also seen None passed in here (against all
-                # specs, but see ticket #8259), so we handle TypeError as well.
-                content_length = 0
-            if content_length:
-                self._raw_post_data = self.read(content_length)
-            else:
-                self._raw_post_data = self.read()
+            self._raw_post_data = self.read()
             self._stream = StringIO(self._raw_post_data)
         return self._raw_post_data
     raw_post_data = property(_get_raw_post_data)
@@ -484,7 +512,7 @@ def parse_cookie(cookie):
     if not isinstance(cookie, Cookie.BaseCookie):
         try:
             c = SimpleCookie()
-            c.load(cookie, ignore_parse_errors=True)
+            c.load(cookie)
         except Cookie.CookieError:
             # Invalid cookie
             return {}
@@ -570,7 +598,7 @@ class HttpResponse(object):
     def items(self):
         return self._headers.values()
 
-    def get(self, header, alternate):
+    def get(self, header, alternate=None):
         return self._headers.get(header.lower(), (None, alternate))[1]
 
     def set_cookie(self, key, value='', max_age=None, expires=None, path='/',

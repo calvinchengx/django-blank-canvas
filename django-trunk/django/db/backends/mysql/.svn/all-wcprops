@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/16081/django/trunk/django/db/backends/mysql
+/svn/!svn/ver/16366/django/trunk/django/db/backends/mysql
 END
 base.py
 K 25
@@ -43,5 +43,5 @@ creation.py
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/svn/!svn/ver/11952/django/trunk/django/db/backends/mysql/creation.py
+/svn/!svn/ver/16366/django/trunk/django/db/backends/mysql/creation.py
 END

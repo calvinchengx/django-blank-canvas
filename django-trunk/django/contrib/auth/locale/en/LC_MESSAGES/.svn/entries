@@ -1,14 +1,14 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/auth/locale/en/LC_MESSAGES
 http://code.djangoproject.com/svn
 
 
 
-2011-03-15T20:06:58.646446Z
-15826
+2011-06-26T16:51:34.948681Z
+16455
 jezdez
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2011-05-28T07:36:15.000000Z
-91a815cde8088851a6818e57fb7d0cfd
-2011-03-15T20:06:58.646446Z
-15826
+2011-07-12T16:57:05.000000Z
+c971577b003de882ae386ae5b49b0205
+2011-06-26T16:51:34.948681Z
+16455
 jezdez
 
 
@@ -58,7 +58,7 @@ jezdez
 
 
 
-4177
+4306
 
 django.mo
 file
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:15.000000Z
+2011-07-12T16:57:05.000000Z
 9529943c96e30aaea4c4554fda593b5b
 2011-03-15T20:06:58.646446Z
 15826

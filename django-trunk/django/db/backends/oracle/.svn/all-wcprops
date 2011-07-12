@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/16081/django/trunk/django/db/backends/oracle
+/svn/!svn/ver/16520/django/trunk/django/db/backends/oracle
 END
 base.py
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/16081/django/trunk/django/db/backends/oracle/base.py
+/svn/!svn/ver/16363/django/trunk/django/db/backends/oracle/base.py
 END
 compiler.py
 K 25
@@ -37,5 +37,5 @@ creation.py
 K 25
 svn:wc:ra_dav:version-url
 V 70
-/svn/!svn/ver/15568/django/trunk/django/db/backends/oracle/creation.py
+/svn/!svn/ver/16520/django/trunk/django/db/backends/oracle/creation.py
 END

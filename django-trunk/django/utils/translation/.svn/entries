@@ -1,14 +1,14 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/utils/translation
 http://code.djangoproject.com/svn
 
 
 
-2011-05-10T18:49:04.876103Z
-16211
+2011-06-26T16:51:54.756594Z
+16457
 jezdez
 has-props
 
@@ -32,44 +32,10 @@ file
 
 
 
-2011-05-28T07:36:35.000000Z
-3b0d7b8f77a4c843e7febf2057f1e322
-2011-04-18T20:00:10.073973Z
-16038
-ramiro
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19887
-
-__init__.py
-file
-
-
-
-
-2011-05-28T07:36:35.000000Z
-12179b7fd571c5354dae52657d131c44
-2011-05-10T18:49:04.876103Z
-16211
+2011-07-12T16:57:18.000000Z
+bff3bbc4dfa3f17bf6ce19c5bfd98569
+2011-06-26T16:51:54.756594Z
+16457
 jezdez
 has-props
 
@@ -92,19 +58,19 @@ has-props
 
 
 
-5570
+20485
 
-trans_null.py
+__init__.py
 file
 
 
 
 
-2011-05-28T07:36:35.000000Z
-444f0f8e886d2dc347651adfbd94fa69
-2011-04-02T08:41:51.541837Z
-15987
-russellm
+2011-07-12T16:57:18.000000Z
+727b03f45ad44f52121ba425ac894294
+2011-06-15T17:29:10.566342Z
+16405
+jezdez
 has-props
 
 
@@ -126,5 +92,39 @@ has-props
 
 
 
-1926
+5652
+
+trans_null.py
+file
+
+
+
+
+2011-07-12T16:57:18.000000Z
+11fcda5f920c726c96d2a13a9cd99bac
+2011-06-15T17:29:10.566342Z
+16405
+jezdez
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1981
 

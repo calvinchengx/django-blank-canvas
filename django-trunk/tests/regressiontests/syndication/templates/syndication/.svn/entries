@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/syndication/templates/syndication
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:22.000000Z
 9c16d8ae6ac498f8fd93acf6410e5bde
 2010-01-28T13:46:18.040470Z
 12338
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:22.000000Z
 43932e7be265230aff821f4dc2f4072c
 2010-01-28T13:46:18.040470Z
 12338

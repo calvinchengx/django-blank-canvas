@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/localflavor/generic
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:26.000000Z
+2011-07-12T16:57:11.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2008-03-18T14:54:39.955217Z
 7294
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:26.000000Z
+2011-07-12T16:57:11.000000Z
 9a8444da476191ee02e86c94ece3c524
 2009-03-22T16:13:06.676393Z
 10115

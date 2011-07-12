@@ -29,6 +29,10 @@ ALWAYS_INSTALLED_APPS = [
     'django.contrib.admindocs',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    'django.contrib.formtools.wizard',
+    'regressiontests.staticfiles_tests',
+    'regressiontests.staticfiles_tests.apps.test',
+    'regressiontests.staticfiles_tests.apps.no_label',
 ]
 
 def geodjango(settings):
@@ -102,11 +106,13 @@ def setup(verbosity, test_labels):
         'LOGIN_URL': settings.LOGIN_URL,
         'LANGUAGE_CODE': settings.LANGUAGE_CODE,
         'MIDDLEWARE_CLASSES': settings.MIDDLEWARE_CLASSES,
+        'STATIC_URL': settings.STATIC_URL,
     }
 
     # Redirect some settings for the duration of these tests.
     settings.INSTALLED_APPS = ALWAYS_INSTALLED_APPS
     settings.ROOT_URLCONF = 'urls'
+    settings.STATIC_URL = '/static/'
     settings.TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), TEST_TEMPLATE_DIR),)
     settings.USE_I18N = True
     settings.LANGUAGE_CODE = 'en'

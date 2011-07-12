@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/15703/django/trunk/django/core/servers
+/svn/!svn/ver/16487/django/trunk/django/core/servers
 END
 basehttp.py
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/15703/django/trunk/django/core/servers/basehttp.py
+/svn/!svn/ver/16487/django/trunk/django/core/servers/basehttp.py
 END
 __init__.py
 K 25

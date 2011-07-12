@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/model_inheritance_select_related
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:48.000000Z
+2011-07-12T16:57:25.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2008-06-29T09:39:32.683103Z
 7781
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:48.000000Z
+2011-07-12T16:57:25.000000Z
 6e27bbfeb75997fa043cecf907795803
 2010-10-12T02:09:13.466953Z
 14181
@@ -100,7 +100,7 @@ file
 
 
 
-2011-05-28T07:36:48.000000Z
+2011-07-12T16:57:25.000000Z
 568b49e569ae8a6320d2eb5af9630f92
 2010-10-12T02:09:13.466953Z
 14181

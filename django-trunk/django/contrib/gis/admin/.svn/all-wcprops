@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/15845/django/trunk/django/contrib/gis/admin
+/svn/!svn/ver/16487/django/trunk/django/contrib/gis/admin
 END
 options.py
 K 25
@@ -19,5 +19,5 @@ widgets.py
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/svn/!svn/ver/10636/django/trunk/django/contrib/gis/admin/widgets.py
+/svn/!svn/ver/16487/django/trunk/django/contrib/gis/admin/widgets.py
 END

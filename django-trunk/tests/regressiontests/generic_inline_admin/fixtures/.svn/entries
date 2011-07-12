@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/generic_inline_admin/fixtures
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:22.000000Z
 98ccafe013995e251e755faa48d415f9
 2008-11-13T19:03:44.803505Z
 9412

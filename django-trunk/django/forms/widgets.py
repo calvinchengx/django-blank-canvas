@@ -4,7 +4,6 @@ HTML Widget classes
 
 import copy
 import datetime
-import time
 from itertools import chain
 from urlparse import urljoin
 from util import flatatt
@@ -372,7 +371,6 @@ class Textarea(Widget):
 
 class DateInput(Input):
     input_type = 'text'
-    format = '%Y-%m-%d'     # '2006-10-25'
 
     def __init__(self, attrs=None, format=None):
         super(DateInput, self).__init__(attrs)
@@ -397,14 +395,13 @@ class DateInput(Input):
         # necessarily the format used for this widget. Attempt to convert it.
         try:
             input_format = formats.get_format('DATE_INPUT_FORMATS')[0]
-            initial = datetime.date(*time.strptime(initial, input_format)[:3])
+            initial = datetime.datetime.strptime(initial, input_format).date()
         except (TypeError, ValueError):
             pass
         return super(DateInput, self)._has_changed(self._format_value(initial), data)
 
 class DateTimeInput(Input):
     input_type = 'text'
-    format = '%Y-%m-%d %H:%M:%S'     # '2006-10-25 14:30:59'
 
     def __init__(self, attrs=None, format=None):
         super(DateTimeInput, self).__init__(attrs)
@@ -429,14 +426,13 @@ class DateTimeInput(Input):
         # necessarily the format used for this widget. Attempt to convert it.
         try:
             input_format = formats.get_format('DATETIME_INPUT_FORMATS')[0]
-            initial = datetime.datetime(*time.strptime(initial, input_format)[:6])
+            initial = datetime.datetime.strptime(initial, input_format)
         except (TypeError, ValueError):
             pass
         return super(DateTimeInput, self)._has_changed(self._format_value(initial), data)
 
 class TimeInput(Input):
     input_type = 'text'
-    format = '%H:%M:%S'     # '14:30:59'
 
     def __init__(self, attrs=None, format=None):
         super(TimeInput, self).__init__(attrs)
@@ -460,7 +456,7 @@ class TimeInput(Input):
         # necessarily the format used for this  widget. Attempt to convert it.
         try:
             input_format = formats.get_format('TIME_INPUT_FORMATS')[0]
-            initial = datetime.time(*time.strptime(initial, input_format)[3:6])
+            initial = datetime.datetime.strptime(initial, input_format).time()
         except (TypeError, ValueError):
             pass
         return super(TimeInput, self)._has_changed(self._format_value(initial), data)
@@ -829,8 +825,6 @@ class SplitDateTimeWidget(MultiWidget):
     """
     A Widget that splits datetime input into two <input type="text"> boxes.
     """
-    date_format = DateInput.format
-    time_format = TimeInput.format
 
     def __init__(self, attrs=None, date_format=None, time_format=None):
         widgets = (DateInput(attrs=attrs, format=date_format),

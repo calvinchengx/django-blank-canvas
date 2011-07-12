@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/humanize/templatetags
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:35:09.000000Z
+2011-07-12T16:56:43.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2006-12-30T06:25:49.438024Z
 4265
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:35:09.000000Z
+2011-07-12T16:56:43.000000Z
 47a28892e95731c98fab5e48985e48e2
 2011-05-17T10:16:12.435052Z
 16233

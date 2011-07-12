@@ -243,9 +243,6 @@ class Person(models.Model):
     def __unicode__(self):
         return self.name
 
-    class Meta:
-        ordering = ["id"]
-
 class BasePersonModelFormSet(BaseModelFormSet):
     def clean(self):
         for person_dict in self.cleaned_data:
@@ -259,12 +256,16 @@ class PersonAdmin(admin.ModelAdmin):
     list_editable = ('gender', 'alive')
     list_filter = ('gender',)
     search_fields = ('^name',)
-    ordering = ["id"]
     save_as = True
 
     def get_changelist_formset(self, request, **kwargs):
         return super(PersonAdmin, self).get_changelist_formset(request,
             formset=BasePersonModelFormSet, **kwargs)
+
+    def queryset(self, request):
+        # Order by a field that isn't in list display, to be able to test
+        # whether ordering is preserved.
+        return super(PersonAdmin, self).queryset(request).order_by('age')
 
 
 class Persona(models.Model):
@@ -357,6 +358,9 @@ class Media(models.Model):
 class Podcast(Media):
     release_date = models.DateField()
 
+    class Meta:
+        ordering = ('release_date',) # overridden in PodcastAdmin
+
 class PodcastAdmin(admin.ModelAdmin):
     list_display = ('name', 'release_date')
     list_editable = ('release_date',)
@@ -386,6 +390,14 @@ class ChildInline(admin.StackedInline):
 class ParentAdmin(admin.ModelAdmin):
     model = Parent
     inlines = [ChildInline]
+
+    def save_related(self, request, form, formsets, change):
+        super(ParentAdmin, self).save_related(request, form, formsets, change)
+        first_name, last_name = form.instance.name.split()
+        for child in form.instance.child_set.all():
+            if len(child.name.split()) < 2:
+                child.name = child.name + ' ' + last_name
+                child.save()
 
 class EmptyModel(models.Model):
     def __unicode__(self):
@@ -779,7 +791,6 @@ class CoverLetterAdmin(admin.ModelAdmin):
     """
 
     def queryset(self, request):
-        #return super(CoverLetterAdmin, self).queryset(request).only('author')
         return super(CoverLetterAdmin, self).queryset(request).defer('date_written')
 
 class Story(models.Model):
@@ -795,6 +806,7 @@ class StoryAdmin(admin.ModelAdmin):
     list_display_links = ('title',) # 'id' not in list_display_links
     list_editable = ('content', )
     form = StoryForm
+    ordering = ["-pk"]
 
 class OtherStory(models.Model):
     title = models.CharField(max_length=100)
@@ -804,6 +816,21 @@ class OtherStoryAdmin(admin.ModelAdmin):
     list_display = ('id', 'title', 'content')
     list_display_links = ('title', 'id') # 'id' in list_display_links
     list_editable = ('content', )
+    ordering = ["-pk"]
+
+class ComplexSortedPerson(models.Model):
+    name = models.CharField(max_length=100)
+    age = models.PositiveIntegerField()
+    is_employee = models.NullBooleanField()
+
+class ComplexSortedPersonAdmin(admin.ModelAdmin):
+    list_display = ('name', 'age', 'is_employee', 'colored_name')
+    ordering = ('name',)
+
+    def colored_name(self, obj):
+        return '<span style="color: #%s;">%s</span>' % ('ff00ff', obj.name)
+    colored_name.allow_tags = True
+    colored_name.admin_order_field = 'name'
 
 admin.site.register(Article, ArticleAdmin)
 admin.site.register(CustomArticle, CustomArticleAdmin)
@@ -866,3 +893,4 @@ admin.site.register(Album, AlbumAdmin)
 admin.site.register(Question)
 admin.site.register(Answer)
 admin.site.register(PrePopulatedPost, PrePopulatedPostAdmin)
+admin.site.register(ComplexSortedPerson, ComplexSortedPersonAdmin)

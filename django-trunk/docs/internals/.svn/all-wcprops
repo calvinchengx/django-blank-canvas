@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/svn/!svn/ver/16284/django/trunk/docs/internals
+/svn/!svn/ver/16487/django/trunk/docs/internals
 END
 committers.txt
 K 25
@@ -13,7 +13,7 @@ svn.txt
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/16220/django/trunk/docs/internals/svn.txt
+/svn/!svn/ver/16289/django/trunk/docs/internals/svn.txt
 END
 index.txt
 K 25
@@ -31,5 +31,5 @@ deprecation.txt
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/16220/django/trunk/docs/internals/deprecation.txt
+/svn/!svn/ver/16487/django/trunk/docs/internals/deprecation.txt
 END

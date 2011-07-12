@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/svn/!svn/ver/16268/django/trunk/docs/topics/i18n
+/svn/!svn/ver/16532/django/trunk/docs/topics/i18n
 END
 internationalization.txt
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/svn/!svn/ver/16268/django/trunk/docs/topics/i18n/internationalization.txt
+/svn/!svn/ver/16532/django/trunk/docs/topics/i18n/internationalization.txt
 END
 index.txt
 K 25
@@ -19,11 +19,11 @@ localization.txt
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/15565/django/trunk/docs/topics/i18n/localization.txt
+/svn/!svn/ver/16437/django/trunk/docs/topics/i18n/localization.txt
 END
 deployment.txt
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/15441/django/trunk/docs/topics/i18n/deployment.txt
+/svn/!svn/ver/16405/django/trunk/docs/topics/i18n/deployment.txt
 END

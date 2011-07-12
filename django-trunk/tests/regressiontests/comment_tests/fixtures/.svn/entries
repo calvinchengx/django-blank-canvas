@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/comment_tests/fixtures
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:22.000000Z
 513cd79b88077b3ec5694ea9877922c9
 2009-03-23T21:07:02.594685Z
 10122
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:22.000000Z
 a22ebb9efeac9cacce5189a210d28bc3
 2010-03-16T22:37:45.883233Z
 12800

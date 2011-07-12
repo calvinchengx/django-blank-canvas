@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/admin_scripts/complex_app/models
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:47.000000Z
+2011-07-12T16:57:25.000000Z
 3091691044b7bd4be73be8b5da3b0153
 2010-04-14T19:10:27.193089Z
 12972
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:47.000000Z
+2011-07-12T16:57:25.000000Z
 35c6f8ea4b01255a66a6bccc31d8311b
 2010-04-14T19:10:27.193089Z
 12972
@@ -100,7 +100,7 @@ file
 
 
 
-2011-05-28T07:36:47.000000Z
+2011-07-12T16:57:25.000000Z
 89f23d65249ba38d8f4b4a1afa892706
 2010-04-14T21:23:43.401116Z
 12974

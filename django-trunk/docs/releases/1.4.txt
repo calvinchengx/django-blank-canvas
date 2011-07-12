@@ -8,10 +8,34 @@ up-to-date information for those who are following trunk.
 
 Django 1.4 includes various `new features`_ and some minor `backwards
 incompatible changes`_. There are also some features that have been dropped,
-which are detailed in :doc:`our deprecation plan </internals/deprecation>`.
+which are detailed in :doc:`our deprecation plan </internals/deprecation>`, and
+we've `begun the deprecation process for some features`_.
+
+
 
 .. _new features: `What's new in Django 1.4`_
 .. _backwards incompatible changes: backwards-incompatible-changes-1.4_
+.. _begun the deprecation process for some features: deprecated-features-1.4_
+
+Python compatibility
+====================
+
+While not a new feature, it's important to note that Django 1.4 introduces the
+second shift in our Python compatibility policy since Django's initial public
+debut. Django 1.2 dropped support for Python 2.3; now Django 1.4 drops support
+for Python 2.4. As such, the minimum Python version required for Django is now
+2.5, and Django is tested and supported on Python 2.5, 2.6 and 2.7.
+
+This change should affect only a small number of Django users, as most
+operating-system vendors today are shipping Python 2.5 or newer as their default
+version. If you're still using Python 2.4, however, you'll need to stick to
+Django 1.3 until you can upgrade; per :doc:`our support policy
+</internals/release-process>`, Django 1.3 will continue to receive security
+support until the release of Django 1.5.
+
+Django does not support Python 3.x at this time. A document outlining our full
+timeline for deprecating Python 2.x and moving to Python 3.x will be published
+before the release of Django 1.4.
 
 What's new in Django 1.4
 ========================
@@ -46,6 +70,23 @@ not custom filters. This has been rectified with a simple API previously
 known as "FilterSpec" which was used internally. For more details, see the
 documentation for :attr:`~django.contrib.admin.ModelAdmin.list_filter`.
 
+Multiple sort in admin interface
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The admin change list now supports sorting on multiple columns. It respects
+all elements of the :attr:`~django.contrib.admin.ModelAdmin.ordering`
+attribute, and sorting on multiple columns by clicking on headers is designed
+to work similarly to how desktop GUIs do it. The new hook
+:meth:`~django.contrib.admin.ModelAdmin.get_ordering` for specifying the
+ordering dynamically (e.g. depending on the request) has also been added.
+
+``ModelAdmin.save_related()``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A new :meth:`~django.contrib.admin.ModelAdmin.save_related` hook was added to
+:mod:`~django.contrib.admin.ModelAdmin` to ease the customization of how
+related objects are saved in the admin.
+
 Tools for cryptographic signing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -54,6 +95,41 @@ for setting and reading signed cookies, one of the most common uses of
 signing in Web applications.
 
 See :doc:`cryptographic signing </topics/signing>` docs for more information.
+
+Cookie-based session backend
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Django 1.4 introduces a new cookie based backend for the session framework
+which uses the tools for :doc:`cryptographic signing </topics/signing>` to
+store the session data in the client's browser.
+
+See the :ref:`cookie-based backend <cookie-session-backend>` docs for
+more information.
+
+New form wizard
+~~~~~~~~~~~~~~~
+
+The previously shipped ``FormWizard`` of the formtools contrib app has been
+replaced with a new implementation that is based on the class based views
+introduced in Django 1.3. It features a pluggable storage API and doesn't
+require the wizard to pass around hidden fields for every previous step.
+
+Django 1.4 ships with a session based storage backend and a cookie based
+storage backend. The latter uses the tools for
+:doc:`cryptographic signing </topics/signing>` also introduced in
+Django 1.4 to store the wizard state in the user's cookies.
+
+See the :doc:`form wizard </ref/contrib/formtools/form-wizard>` docs for
+more information.
+
+Simple clickjacking protection
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We've added a middleware to provide easy protection against `clickjacking
+<http://en.wikipedia.org/wiki/Clickjacking>`_ using the X-Frame-Options
+header. It's not enabled by default for backwards compatibility reasons, but
+you'll almost certainly want to :doc:`enable it </ref/clickjacking/>` to help
+plug that security hole for browsers that support the header.
 
 ``reverse_lazy``
 ~~~~~~~~~~~~~~~~
@@ -69,10 +145,118 @@ A new helper function,
 ``template.Library`` to ease the creation of template tags that store some
 data in a specified context variable.
 
+CSRF improvements
+~~~~~~~~~~~~~~~~~
+
+We've made various improvements to our CSRF features, including the
+:func:`~django.views.decorators.csrf.ensure_csrf_cookie` decorator which can
+help with AJAX heavy sites, protection for PUT and DELETE, and settings
+:setting:`CSRF_COOKIE_SECURE` and :setting:`CSRF_COOKIE_PATH` which can improve
+the security and usefulness of the CSRF protection. See the :doc:`CSRF docs
+</ref/contrib/csrf>` for more information.
+
+Error report filtering
+~~~~~~~~~~~~~~~~~~~~~~
+
+Two new function decorators, :func:`sensitive_variables` and
+:func:`sensitive_post_parameters`, were added to allow designating the
+traceback frames' local variables and request's POST parameters susceptible
+to contain sensitive information and that should be filtered out of error
+reports.
+
+All POST parameters are now systematically filtered out of error reports for
+certain :mod:`contrib.views.auth` views (``login``, ``password_reset_confirm``,
+``password_change``, and ``add_view`` and ``user_change_password`` in the
+``auth`` admin) to prevent the leaking of sensitive information such as user
+passwords.
+
+You may override or customize the default filtering by writing a
+:ref:`custom filter<custom-error-reports>`. Learn more on
+:ref:`Filtering error reports<filtering-error-reports>`.
+
+Extended IPv6 support
+~~~~~~~~~~~~~~~~~~~~~
+
+The previously added support for IPv6 addresses when using the runserver
+management command in Django 1.3 has now been further extended by adding
+a :class:`~django.db.models.fields.GenericIPAddressField` model field,
+a :class:`~django.forms.fields.GenericIPAddressField` form field and
+the validators :data:`~django.core.validators.validate_ipv46_address` and
+:data:`~django.core.validators.validate_ipv6_address`
+
+Translating URL patterns
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Django 1.4 gained the ability to look for a language prefix in the URL pattern
+when using the new :func:`django.conf.urls.i18n.i18n_patterns` helper function.
+Additionally, it's now possible to define translatable URL patterns using
+:func:`~django.utils.translation.ugettext_lazy`. See
+:ref:`url-internationalization` for more information about the language prefix
+and how to internationalize URL patterns.
+
+Minor features
+~~~~~~~~~~~~~~
+
+Django 1.4 also includes several smaller improvements worth noting:
+
+* A more usable stacktrace in the technical 500 page: frames in the stack
+  trace which reference Django's code are dimmed out, while frames in user
+  code are slightly emphasized. This change makes it easier to scan a stacktrace
+  for issues in user code.
+
+* Customizable names for :meth:`~django.template.Library.simple_tag`.
+
+* In the documentation, a helpful :doc:`security overview </topics/security>`
+  page.
+
+* Function :func:`django.contrib.auth.models.check_password` has been moved
+  to the :mod:`django.contrib.auth.utils` module. Importing it from the old
+  location will still work, but you should update your imports.
+
+* The :djadmin:`collectstatic` management command gained a ``--clear`` option
+  to delete all files at the destination before copying or linking the static
+  files.
+
 .. _backwards-incompatible-changes-1.4:
 
 Backwards incompatible changes in 1.4
 =====================================
+
+django.contrib.admin
+~~~~~~~~~~~~~~~~~~~~
+
+The included administration app ``django.contrib.admin`` has for a long time
+shipped with a default set of static files such as JavaScript, images and
+stylesheets. Django 1.3 added a new contrib app ``django.contrib.staticfiles``
+to handle such files in a generic way and defined conventions for static
+files included in apps.
+
+Starting in Django 1.4 the admin's static files are now also following this
+convention to make it easier to deploy the included files. In previous
+versions of Django, it was also common to define a ``ADMIN_MEDIA_PREFIX``
+setting to point to the URL where the admin's static files are served by a
+web server. This setting has now been deprecated and replaced by the more
+general setting :setting:`STATIC_URL`. Django will now expect to find the
+admin static files under the URL ``<STATIC_URL>/admin/``.
+
+If you've previously used a URL path for ``ADMIN_MEDIA_PREFIX`` (e.g.
+``/media/``) simply make sure :setting:`STATIC_URL` and :setting:`STATIC_ROOT`
+are configured and your web server serves the files correctly. The development
+server continues to serve the admin files just like before. Don't hesitate to
+consult the :doc:`static files howto </howto/static-files>` for further
+details.
+
+In case your ``ADMIN_MEDIA_PREFIX`` is set to an own domain (e.g.
+``http://media.example.com/admin/``) make sure to also set your
+:setting:`STATIC_URL` setting to the correct URL, for example
+``http://media.example.com/``.
+
+.. warning::
+
+    If you're implicitely relying on the path of the admin static files on
+    your server's file system when you deploy your site, you have to update
+    that path. The files were moved from :file:`django/contrib/admin/media/`
+    to :file:`django/contrib/admin/static/admin/`.
 
 Compatibility with old signed data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -230,7 +414,78 @@ Previously, Django's :doc:`CSRF protection </ref/contrib/csrf/>` provided
 protection against only POST requests. Since use of PUT and DELETE methods in
 AJAX applications is becoming more common, we now protect all methods not
 defined as safe by RFC 2616 i.e. we exempt GET, HEAD, OPTIONS and TRACE, and
-enforce protection on everything.
+enforce protection on everything else.
 
 If you using PUT or DELETE methods in AJAX applications, please see the
 :ref:`instructions about using AJAX and CSRF <csrf-ajax>`.
+
+``django.core.template_loaders``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This was an alias to ``django.template.loader`` since 2005, it has been removed
+without emitting a warning due to the length of the deprecation. If your code
+still referenced this please use ``django.template.loader`` instead.
+
+.. _deprecated-features-1.4:
+
+Features deprecated in 1.4
+==========================
+
+Old styles of calling ``cache_page`` decorator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Some legacy ways of calling :func:`~django.views.decorators.cache.cache_page`
+have been deprecated, please see the docs for the correct way to use this
+decorator.
+
+Support for PostgreSQL versions older than 8.2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Django 1.3 dropped support for PostgreSQL versions older than 8.0 and the
+relevant documents suggested to use a recent version because of performance
+reasons but more importantly because end of the upstream support periods for
+releases 8.0 and 8.1 was near (November 2010.)
+
+Django 1.4 takes that policy further and sets 8.2 as the minimum PostgreSQL
+version it officially supports.
+
+Request exceptions are now always logged
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When :doc:`logging support </topics/logging/>` was added to Django in 1.3, the
+admin error email support was moved into the
+:class:`django.utils.log.AdminEmailHandler`, attached to the
+``'django.request'`` logger. In order to maintain the established behavior of
+error emails, the ``'django.request'`` logger was called only when
+:setting:`DEBUG` was `False`.
+
+To increase the flexibility of request-error logging, the ``'django.request'``
+logger is now called regardless of the value of :setting:`DEBUG`, and the
+default settings file for new projects now includes a separate filter attached
+to :class:`django.utils.log.AdminEmailHandler` to prevent admin error emails in
+`DEBUG` mode::
+
+   'filters': {
+        'require_debug_false': {
+            '()': 'django.utils.log.CallbackFilter',
+            'callback': lambda r: not DEBUG
+        }
+    },
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'filters': ['require_debug_false'],
+            'class': 'django.utils.log.AdminEmailHandler'
+        }
+    },
+
+If your project was created prior to this change, your :setting:`LOGGING`
+setting will not include this new filter. In order to maintain
+backwards-compatibility, Django will detect that your ``'mail_admins'`` handler
+configuration includes no ``'filters'`` section, and will automatically add
+this filter for you and issue a pending-deprecation warning. This will become a
+deprecation warning in Django 1.5, and in Django 1.6 the
+backwards-compatibility shim will be removed entirely.
+
+The existence of any ``'filters'`` key under the ``'mail_admins'`` handler will
+disable this backward-compatibility shim and deprecation warning.

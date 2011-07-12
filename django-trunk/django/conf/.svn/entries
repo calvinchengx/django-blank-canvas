@@ -1,14 +1,14 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/conf
 http://code.djangoproject.com/svn
 
 
 
-2011-05-21T14:41:14.089846Z
-16253
+2011-06-30T09:06:19.116115Z
+16487
 jezdez
 has-props
 
@@ -41,44 +41,10 @@ file
 
 
 
-2011-05-28T07:35:01.000000Z
-3ebf3036f6048a491da7f6a49fcb04f6
-2011-04-02T08:32:21.369639Z
-15969
-russellm
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6700
-
-global_settings.py
-file
-
-
-
-
-2011-05-28T07:35:01.000000Z
-819233c8806fd3d48ee7e775a439b312
-2011-05-21T14:41:14.089846Z
-16253
+2011-07-12T16:56:41.000000Z
+e53fd408e62def98c89141aa9d8f5a5f
+2011-06-30T09:06:19.116115Z
+16487
 jezdez
 has-props
 
@@ -101,7 +67,41 @@ has-props
 
 
 
-20699
+8341
+
+global_settings.py
+file
+
+
+
+
+2011-07-12T16:56:41.000000Z
+c02586942a144f7d2e9bcd60084a4596
+2011-06-30T09:06:19.116115Z
+16487
+jezdez
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21170
 
 app_template
 dir

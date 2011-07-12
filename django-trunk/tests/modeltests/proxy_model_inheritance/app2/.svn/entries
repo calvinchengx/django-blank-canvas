@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/modeltests/proxy_model_inheritance/app2
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:38.000000Z
+2011-07-12T16:57:19.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2010-03-21T20:29:11.061461Z
 12828
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:38.000000Z
+2011-07-12T16:57:19.000000Z
 3aa8f105907c03a56b724333880a47ff
 2010-03-21T20:29:11.061461Z
 12828

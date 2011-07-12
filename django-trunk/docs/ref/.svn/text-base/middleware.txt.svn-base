@@ -6,7 +6,7 @@ Middleware
    :synopsis: Django's built-in middleware classes.
 
 This document explains all middleware components that come with Django. For
-information on how how to use them and how to write your own middleware, see
+information on how to use them and how to write your own middleware, see
 the :doc:`middleware usage guide </topics/http/middleware>`.
 
 Available middleware
@@ -80,6 +80,7 @@ View metadata middleware
 Sends custom ``X-View`` HTTP headers to HEAD requests that come from IP
 addresses defined in the :setting:`INTERNAL_IPS` setting. This is used by
 Django's :doc:`automatic documentation system </ref/contrib/admin/admindocs>`.
+Depends on :class:`~django.contrib.auth.middleware.AuthenticationMiddleware`.
 
 GZIP middleware
 ---------------
@@ -204,3 +205,16 @@ Middleware modules running inside it (coming later in the stack) will be under
 the same transaction control as the view functions.
 
 See the :doc:`transaction management documentation </topics/db/transactions>`.
+
+X-Frame-Options middleware
+--------------------------
+
+.. module:: django.middleware.clickjacking
+   :synopsis: Clickjacking protection
+
+.. class:: XFrameOptionsMiddleware
+
+.. versionadded:: 1.4
+   ``XFrameOptionsMiddleware`` was added.
+
+Simple :doc:`clickjacking protection via the X-Frame-Options header </ref/clickjacking/>`.

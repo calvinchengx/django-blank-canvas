@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 38
-/svn/!svn/ver/16285/django/trunk/tests
+/svn/!svn/ver/16530/django/trunk/tests
 END
 test_sqlite.py
 K 25
@@ -19,5 +19,5 @@ runtests.py
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/16168/django/trunk/tests/runtests.py
+/svn/!svn/ver/16487/django/trunk/tests/runtests.py
 END

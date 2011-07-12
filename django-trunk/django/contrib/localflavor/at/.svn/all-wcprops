@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/16146/django/trunk/django/contrib/localflavor/at
+/svn/!svn/ver/16447/django/trunk/django/contrib/localflavor/at
 END
 __init__.py
 K 25
@@ -13,7 +13,7 @@ forms.py
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/svn/!svn/ver/16146/django/trunk/django/contrib/localflavor/at/forms.py
+/svn/!svn/ver/16447/django/trunk/django/contrib/localflavor/at/forms.py
 END
 at_states.py
 K 25

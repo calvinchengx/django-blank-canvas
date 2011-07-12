@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 37
-/svn/!svn/ver/16284/django/trunk/docs
+/svn/!svn/ver/16538/django/trunk/docs
 END
 glossary.txt
 K 25
@@ -13,7 +13,7 @@ index.txt
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/svn/!svn/ver/16284/django/trunk/docs/index.txt
+/svn/!svn/ver/16413/django/trunk/docs/index.txt
 END
 contents.txt
 K 25

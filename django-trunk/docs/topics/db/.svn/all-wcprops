@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/svn/!svn/ver/16220/django/trunk/docs/topics/db
+/svn/!svn/ver/16473/django/trunk/docs/topics/db
 END
 models.txt
 K 25
@@ -31,13 +31,13 @@ transactions.txt
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/16220/django/trunk/docs/topics/db/transactions.txt
+/svn/!svn/ver/16349/django/trunk/docs/topics/db/transactions.txt
 END
 managers.txt
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/15220/django/trunk/docs/topics/db/managers.txt
+/svn/!svn/ver/16324/django/trunk/docs/topics/db/managers.txt
 END
 multi-db.txt
 K 25
@@ -49,11 +49,11 @@ queries.txt
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/16096/django/trunk/docs/topics/db/queries.txt
+/svn/!svn/ver/16473/django/trunk/docs/topics/db/queries.txt
 END
 sql.txt
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/15803/django/trunk/docs/topics/db/sql.txt
+/svn/!svn/ver/16360/django/trunk/docs/topics/db/sql.txt
 END

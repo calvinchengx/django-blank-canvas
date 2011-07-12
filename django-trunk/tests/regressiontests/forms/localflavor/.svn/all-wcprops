@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/!svn/ver/16175/django/trunk/tests/regressiontests/forms/localflavor
+/svn/!svn/ver/16495/django/trunk/tests/regressiontests/forms/localflavor
 END
 de.py
 K 25
@@ -25,25 +25,37 @@ __init__.py
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/svn/!svn/ver/14956/django/trunk/tests/regressiontests/forms/localflavor/__init__.py
+/svn/!svn/ver/16303/django/trunk/tests/regressiontests/forms/localflavor/__init__.py
+END
+in_.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/16495/django/trunk/tests/regressiontests/forms/localflavor/in_.py
 END
 au.py
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/14931/django/trunk/tests/regressiontests/forms/localflavor/au.py
+/svn/!svn/ver/16303/django/trunk/tests/regressiontests/forms/localflavor/au.py
 END
-se.py
+mk.py
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/15057/django/trunk/tests/regressiontests/forms/localflavor/se.py
+/svn/!svn/ver/16387/django/trunk/tests/regressiontests/forms/localflavor/mk.py
 END
 es.py
 K 25
 svn:wc:ra_dav:version-url
 V 78
 /svn/!svn/ver/16132/django/trunk/tests/regressiontests/forms/localflavor/es.py
+END
+se.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/15057/django/trunk/tests/regressiontests/forms/localflavor/se.py
 END
 is_.py
 K 25
@@ -67,7 +79,7 @@ ro.py
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/14951/django/trunk/tests/regressiontests/forms/localflavor/ro.py
+/svn/!svn/ver/16303/django/trunk/tests/regressiontests/forms/localflavor/ro.py
 END
 kw.py
 K 25
@@ -87,6 +99,12 @@ svn:wc:ra_dav:version-url
 V 78
 /svn/!svn/ver/15728/django/trunk/tests/regressiontests/forms/localflavor/us.py
 END
+py.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/16477/django/trunk/tests/regressiontests/forms/localflavor/py.py
+END
 gb.py
 K 25
 svn:wc:ra_dav:version-url
@@ -103,7 +121,7 @@ id.py
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/14941/django/trunk/tests/regressiontests/forms/localflavor/id.py
+/svn/!svn/ver/16354/django/trunk/tests/regressiontests/forms/localflavor/id.py
 END
 uy.py
 K 25
@@ -127,13 +145,13 @@ utils.py
 K 25
 svn:wc:ra_dav:version-url
 V 81
-/svn/!svn/ver/16146/django/trunk/tests/regressiontests/forms/localflavor/utils.py
+/svn/!svn/ver/16303/django/trunk/tests/regressiontests/forms/localflavor/utils.py
 END
 ar.py
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/14872/django/trunk/tests/regressiontests/forms/localflavor/ar.py
+/svn/!svn/ver/16354/django/trunk/tests/regressiontests/forms/localflavor/ar.py
 END
 br.py
 K 25
@@ -151,7 +169,7 @@ at.py
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/14873/django/trunk/tests/regressiontests/forms/localflavor/at.py
+/svn/!svn/ver/16447/django/trunk/tests/regressiontests/forms/localflavor/at.py
 END
 fr.py
 K 25
@@ -175,7 +193,7 @@ hr.py
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/16077/django/trunk/tests/regressiontests/forms/localflavor/hr.py
+/svn/!svn/ver/16303/django/trunk/tests/regressiontests/forms/localflavor/hr.py
 END
 pl.py
 K 25
@@ -205,7 +223,7 @@ pt.py
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/14950/django/trunk/tests/regressiontests/forms/localflavor/pt.py
+/svn/!svn/ver/16354/django/trunk/tests/regressiontests/forms/localflavor/pt.py
 END
 ca.py
 K 25

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/16368/django/trunk/django/contrib/formtools/wizard/tests/namedwizardtests
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/16307/django/trunk/django/contrib/formtools/wizard/tests/namedwizardtests/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/16368/django/trunk/django/contrib/formtools/wizard/tests/namedwizardtests/tests.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/16307/django/trunk/django/contrib/formtools/wizard/tests/namedwizardtests/urls.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/16307/django/trunk/django/contrib/formtools/wizard/tests/namedwizardtests/forms.py
+END

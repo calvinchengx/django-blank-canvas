@@ -420,7 +420,7 @@ Once the cache is set up, the simplest way to use caching is to cache your
 entire site. You'll need to add
 ``'django.middleware.cache.UpdateCacheMiddleware'`` and
 ``'django.middleware.cache.FetchFromCacheMiddleware'`` to your
-``MIDDLEWARE_CLASSES`` setting, as in this example::
+:setting:`MIDDLEWARE_CLASSES` setting, as in this example::
 
     MIDDLEWARE_CLASSES = (
         'django.middleware.cache.UpdateCacheMiddleware',
@@ -494,7 +494,7 @@ __ `Controlling cache: Using other headers`_
 The per-view cache
 ==================
 
-.. function ``django.views.decorators.cache.cache_page``
+.. function:: django.views.decorators.cache.cache_page
 
 A more granular way to use the caching framework is by caching the output of
 individual views. ``django.views.decorators.cache`` defines a ``cache_page``
@@ -571,11 +571,8 @@ Here's the same thing, with ``my_view`` wrapped in ``cache_page``::
     from django.views.decorators.cache import cache_page
 
     urlpatterns = ('',
-        (r'^foo/(\d{1,2})/$', cache_page(my_view, 60 * 15)),
+        (r'^foo/(\d{1,2})/$', cache_page(60 * 15)(my_view)),
     )
-
-If you take this approach, don't forget to import ``cache_page`` within your
-URLconf.
 
 Template fragment caching
 =========================

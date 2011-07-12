@@ -20,6 +20,7 @@ class DatabaseCreation(BaseDatabaseCreation):
         'IntegerField':                 'integer',
         'BigIntegerField':              'bigint',
         'IPAddressField':               'char(15)',
+        'GenericIPAddressField':        'char(39)',
         'NullBooleanField':             'bool',
         'OneToOneField':                'integer',
         'PositiveIntegerField':         'integer unsigned',
@@ -68,3 +69,6 @@ class DatabaseCreation(BaseDatabaseCreation):
         if test_database_name and test_database_name != ":memory:":
             # Remove the SQLite database file
             os.remove(test_database_name)
+
+    def set_autocommit(self):
+        self.connection.connection.isolation_level = None

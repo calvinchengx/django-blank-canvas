@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/15978/django/trunk/django/core/management/commands
+/svn/!svn/ver/16515/django/trunk/django/core/management/commands
 END
 sqlall.py
 K 25
@@ -31,7 +31,7 @@ runserver.py
 K 25
 svn:wc:ra_dav:version-url
 V 77
-/svn/!svn/ver/15343/django/trunk/django/core/management/commands/runserver.py
+/svn/!svn/ver/16428/django/trunk/django/core/management/commands/runserver.py
 END
 sqlsequencereset.py
 K 25
@@ -67,7 +67,7 @@ createcachetable.py
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/svn/!svn/ver/12410/django/trunk/django/core/management/commands/createcachetable.py
+/svn/!svn/ver/16515/django/trunk/django/core/management/commands/createcachetable.py
 END
 __init__.py
 K 25
@@ -97,7 +97,7 @@ makemessages.py
 K 25
 svn:wc:ra_dav:version-url
 V 80
-/svn/!svn/ver/15506/django/trunk/django/core/management/commands/makemessages.py
+/svn/!svn/ver/16437/django/trunk/django/core/management/commands/makemessages.py
 END
 sqlclear.py
 K 25
@@ -145,7 +145,7 @@ test.py
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/!svn/ver/15978/django/trunk/django/core/management/commands/test.py
+/svn/!svn/ver/16352/django/trunk/django/core/management/commands/test.py
 END
 compilemessages.py
 K 25

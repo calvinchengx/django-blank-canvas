@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/16274/django/trunk/django/contrib/admin/views
+/svn/!svn/ver/16445/django/trunk/django/contrib/admin/views
 END
 __init__.py
 K 25
@@ -13,7 +13,7 @@ main.py
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/!svn/ver/16274/django/trunk/django/contrib/admin/views/main.py
+/svn/!svn/ver/16445/django/trunk/django/contrib/admin/views/main.py
 END
 decorators.py
 K 25

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/16275/django/trunk/django/middleware
+/svn/!svn/ver/16496/django/trunk/django/middleware
 END
 common.py
 K 25
@@ -14,6 +14,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 58
 /svn/!svn/ver/10541/django/trunk/django/middleware/gzip.py
+END
+clickjacking.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/16298/django/trunk/django/middleware/clickjacking.py
 END
 csrf.py
 K 25
@@ -36,8 +42,8 @@ END
 locale.py
 K 25
 svn:wc:ra_dav:version-url
-V 59
-/svn/!svn/ver/8259/django/trunk/django/middleware/locale.py
+V 60
+/svn/!svn/ver/16405/django/trunk/django/middleware/locale.py
 END
 cache.py
 K 25
@@ -49,7 +55,7 @@ doc.py
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/12159/django/trunk/django/middleware/doc.py
+/svn/!svn/ver/16496/django/trunk/django/middleware/doc.py
 END
 transaction.py
 K 25

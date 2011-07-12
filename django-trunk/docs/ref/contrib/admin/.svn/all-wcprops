@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/16225/django/trunk/docs/ref/contrib/admin
+/svn/!svn/ver/16498/django/trunk/docs/ref/contrib/admin
 END
 admindocs.txt
 K 25
@@ -13,7 +13,7 @@ index.txt
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/16225/django/trunk/docs/ref/contrib/admin/index.txt
+/svn/!svn/ver/16498/django/trunk/docs/ref/contrib/admin/index.txt
 END
 actions.txt
 K 25

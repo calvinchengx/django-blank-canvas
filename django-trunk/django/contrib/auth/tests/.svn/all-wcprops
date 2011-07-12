@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/16182/django/trunk/django/contrib/auth/tests
+/svn/!svn/ver/16483/django/trunk/django/contrib/auth/tests
 END
 remote_user.py
 K 25
@@ -15,12 +15,6 @@ svn:wc:ra_dav:version-url
 V 75
 /svn/!svn/ver/15970/django/trunk/django/contrib/auth/tests/auth_backends.py
 END
-permissions.py
-K 25
-svn:wc:ra_dav:version-url
-V 73
-/svn/!svn/ver/14985/django/trunk/django/contrib/auth/tests/permissions.py
-END
 management.py
 K 25
 svn:wc:ra_dav:version-url
@@ -31,13 +25,13 @@ views.py
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/!svn/ver/15728/django/trunk/django/contrib/auth/tests/views.py
+/svn/!svn/ver/16454/django/trunk/django/contrib/auth/tests/views.py
 END
 __init__.py
 K 25
 svn:wc:ra_dav:version-url
 V 70
-/svn/!svn/ver/16182/django/trunk/django/contrib/auth/tests/__init__.py
+/svn/!svn/ver/16483/django/trunk/django/contrib/auth/tests/__init__.py
 END
 signals.py
 K 25
@@ -49,7 +43,7 @@ basic.py
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/!svn/ver/15728/django/trunk/django/contrib/auth/tests/basic.py
+/svn/!svn/ver/16478/django/trunk/django/contrib/auth/tests/basic.py
 END
 models.py
 K 25
@@ -73,17 +67,17 @@ urls.py
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/15990/django/trunk/django/contrib/auth/tests/urls.py
+/svn/!svn/ver/16304/django/trunk/django/contrib/auth/tests/urls.py
 END
 context_processors.py
 K 25
 svn:wc:ra_dav:version-url
 V 80
-/svn/!svn/ver/15990/django/trunk/django/contrib/auth/tests/context_processors.py
+/svn/!svn/ver/16304/django/trunk/django/contrib/auth/tests/context_processors.py
 END
 forms.py
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/!svn/ver/15805/django/trunk/django/contrib/auth/tests/forms.py
+/svn/!svn/ver/16455/django/trunk/django/contrib/auth/tests/forms.py
 END

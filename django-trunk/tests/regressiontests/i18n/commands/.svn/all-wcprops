@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/svn/!svn/ver/16281/django/trunk/tests/regressiontests/i18n/commands
+/svn/!svn/ver/16440/django/trunk/tests/regressiontests/i18n/commands
 END
 javascript.js
 K 25
 svn:wc:ra_dav:version-url
 V 82
-/svn/!svn/ver/14133/django/trunk/tests/regressiontests/i18n/commands/javascript.js
+/svn/!svn/ver/16333/django/trunk/tests/regressiontests/i18n/commands/javascript.js
 END
 compilation.py
 K 25
@@ -25,7 +25,7 @@ extraction.py
 K 25
 svn:wc:ra_dav:version-url
 V 82
-/svn/!svn/ver/16281/django/trunk/tests/regressiontests/i18n/commands/extraction.py
+/svn/!svn/ver/16440/django/trunk/tests/regressiontests/i18n/commands/extraction.py
 END
 tests.py
 K 25

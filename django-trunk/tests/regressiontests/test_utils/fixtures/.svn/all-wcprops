@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/16375/django/trunk/tests/regressiontests/test_utils/fixtures
+END
+should_not_be_loaded.json
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/16375/django/trunk/tests/regressiontests/test_utils/fixtures/should_not_be_loaded.json
+END

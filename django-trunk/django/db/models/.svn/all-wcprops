@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/svn/!svn/ver/16254/django/trunk/django/db/models
+/svn/!svn/ver/16522/django/trunk/django/db/models
 END
 aggregates.py
 K 25
@@ -13,7 +13,7 @@ base.py
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/16053/django/trunk/django/db/models/base.py
+/svn/!svn/ver/16349/django/trunk/django/db/models/base.py
 END
 manager.py
 K 25
@@ -61,13 +61,13 @@ deletion.py
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/15927/django/trunk/django/db/models/deletion.py
+/svn/!svn/ver/16295/django/trunk/django/db/models/deletion.py
 END
 query.py
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/16254/django/trunk/django/db/models/query.py
+/svn/!svn/ver/16522/django/trunk/django/db/models/query.py
 END
 query_utils.py
 K 25

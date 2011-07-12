@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/16304/django/trunk/django/contrib/auth/tests/templates/context_processors
+END
+auth_attrs_user.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/16304/django/trunk/django/contrib/auth/tests/templates/context_processors/auth_attrs_user.html
+END
+auth_attrs_test_access.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/16304/django/trunk/django/contrib/auth/tests/templates/context_processors/auth_attrs_test_access.html
+END
+auth_attrs_access.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/16304/django/trunk/django/contrib/auth/tests/templates/context_processors/auth_attrs_access.html
+END
+auth_attrs_perms.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/16304/django/trunk/django/contrib/auth/tests/templates/context_processors/auth_attrs_perms.html
+END
+auth_attrs_messages.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/16304/django/trunk/django/contrib/auth/tests/templates/context_processors/auth_attrs_messages.html
+END
+auth_attrs_no_access.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/16304/django/trunk/django/contrib/auth/tests/templates/context_processors/auth_attrs_no_access.html
+END

@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/admin_registration
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:45.000000Z
+2011-07-12T16:57:24.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2008-07-23T18:58:06.379026Z
 8063
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:45.000000Z
+2011-07-12T16:57:24.000000Z
 6863daa3f26e403ad3d75c4edeee22ae
 2011-02-23T13:43:21.128622Z
 15636
@@ -100,7 +100,7 @@ file
 
 
 
-2011-05-28T07:36:45.000000Z
+2011-07-12T16:57:24.000000Z
 cd7b800457feaade9a8e52e646c14ad3
 2011-02-23T13:43:21.128622Z
 15636

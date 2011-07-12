@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/16105/django/trunk/django/views/generic
+/svn/!svn/ver/16363/django/trunk/django/views/generic
 END
 simple.py
 K 25
@@ -43,7 +43,7 @@ dates.py
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/15533/django/trunk/django/views/generic/dates.py
+/svn/!svn/ver/16363/django/trunk/django/views/generic/dates.py
 END
 detail.py
 K 25

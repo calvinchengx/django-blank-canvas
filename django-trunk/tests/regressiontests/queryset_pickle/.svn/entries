@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/queryset_pickle
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:21.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2010-03-27T15:54:31.962161Z
 12866
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:21.000000Z
 18e403488b3ff5fb8dc0064f20fe0fae
 2010-04-21T18:07:23.130235Z
 13014
@@ -100,7 +100,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:22.000000Z
 ffa05f7a79aee187bd3b97b2b5b338be
 2010-04-21T16:34:33.440397Z
 13013

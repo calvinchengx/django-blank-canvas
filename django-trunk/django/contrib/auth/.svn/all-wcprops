@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/16182/django/trunk/django/contrib/auth
+/svn/!svn/ver/16483/django/trunk/django/contrib/auth
 END
 admin.py
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/16087/django/trunk/django/contrib/auth/admin.py
+/svn/!svn/ver/16339/django/trunk/django/contrib/auth/admin.py
 END
 backends.py
 K 25
@@ -19,19 +19,25 @@ views.py
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/16087/django/trunk/django/contrib/auth/views.py
+/svn/!svn/ver/16454/django/trunk/django/contrib/auth/views.py
 END
 middleware.py
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/14069/django/trunk/django/contrib/auth/middleware.py
+/svn/!svn/ver/16332/django/trunk/django/contrib/auth/middleware.py
 END
 __init__.py
 K 25
 svn:wc:ra_dav:version-url
 V 64
 /svn/!svn/ver/15970/django/trunk/django/contrib/auth/__init__.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/16456/django/trunk/django/contrib/auth/utils.py
 END
 signals.py
 K 25
@@ -55,7 +61,7 @@ models.py
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/16022/django/trunk/django/contrib/auth/models.py
+/svn/!svn/ver/16472/django/trunk/django/contrib/auth/models.py
 END
 decorators.py
 K 25
@@ -73,11 +79,11 @@ context_processors.py
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/svn/!svn/ver/16022/django/trunk/django/contrib/auth/context_processors.py
+/svn/!svn/ver/16305/django/trunk/django/contrib/auth/context_processors.py
 END
 forms.py
 K 25
 svn:wc:ra_dav:version-url
 V 61
-/svn/!svn/ver/15967/django/trunk/django/contrib/auth/forms.py
+/svn/!svn/ver/16455/django/trunk/django/contrib/auth/forms.py
 END

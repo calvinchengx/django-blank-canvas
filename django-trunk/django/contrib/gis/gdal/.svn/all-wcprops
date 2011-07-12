@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/15946/django/trunk/django/contrib/gis/gdal
+/svn/!svn/ver/16500/django/trunk/django/contrib/gis/gdal
 END
 error.py
 K 25
@@ -61,7 +61,7 @@ libgdal.py
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/!svn/ver/15852/django/trunk/django/contrib/gis/gdal/libgdal.py
+/svn/!svn/ver/16500/django/trunk/django/contrib/gis/gdal/libgdal.py
 END
 __init__.py
 K 25

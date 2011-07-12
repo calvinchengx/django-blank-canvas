@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/initial_sql_regress/sql
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:47.000000Z
+2011-07-12T16:57:25.000000Z
 4600675b2b92e62e5a3f78dfd18ceb88
 2006-09-25T07:36:46.109611Z
 3821

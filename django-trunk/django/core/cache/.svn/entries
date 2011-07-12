@@ -1,15 +1,15 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/core/cache
 http://code.djangoproject.com/svn
 
 
 
-2011-04-02T13:46:09.607674Z
-16001
-russellm
+2011-07-05T09:10:58.965037Z
+16511
+jezdez
 has-props
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-05-28T07:35:03.000000Z
-b3aa15fd80970ec724d0699ce07990f1
-2011-04-02T08:37:15.153622Z
-15977
-russellm
+2011-07-12T16:56:42.000000Z
+ed9e46ecb48a3e03c603d644aa2c1e22
+2011-07-05T09:10:58.965037Z
+16511
+jezdez
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-6682
+6687
 
 backends
 dir

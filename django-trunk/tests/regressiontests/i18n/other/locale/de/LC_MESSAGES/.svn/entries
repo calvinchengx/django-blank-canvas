@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/i18n/other/locale/de/LC_MESSAGES
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:45.000000Z
+2011-07-12T16:57:23.000000Z
 93fc7d7313457ddb8a91805a3b56da2f
 2011-02-07T18:48:40.888822Z
 15441
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:45.000000Z
+2011-07-12T16:57:23.000000Z
 1969a3a80dc261b9ea5bc626aa9c951b
 2011-02-07T18:48:40.888822Z
 15441

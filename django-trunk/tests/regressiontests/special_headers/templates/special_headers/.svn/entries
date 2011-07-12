@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/special_headers/templates/special_headers
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:41.000000Z
+2011-07-12T16:57:20.000000Z
 86f87bf6c6f8428cf8ccf28eef6356f0
 2010-01-10T17:21:52.056217Z
 12160

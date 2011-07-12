@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/svn/!svn/ver/16220/django/trunk/docs/ref/models
+/svn/!svn/ver/16521/django/trunk/docs/ref/models
 END
 querysets.txt
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/16220/django/trunk/docs/ref/models/querysets.txt
+/svn/!svn/ver/16518/django/trunk/docs/ref/models/querysets.txt
 END
 fields.txt
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/16207/django/trunk/docs/ref/models/fields.txt
+/svn/!svn/ver/16521/django/trunk/docs/ref/models/fields.txt
 END
 index.txt
 K 25
@@ -25,7 +25,7 @@ instances.txt
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/15055/django/trunk/docs/ref/models/instances.txt
+/svn/!svn/ver/16300/django/trunk/docs/ref/models/instances.txt
 END
 options.txt
 K 25

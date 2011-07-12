@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/m2m_through_regress
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:22.000000Z
 e1c06d85ae7b8b032bef47e42e4c08f9
 2008-07-29T12:41:08.144524Z
 8136
@@ -69,7 +69,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:22.000000Z
 d54098b32ced693fbb15bb893aec3dd2
 2011-01-26T19:10:08.847345Z
 15330
@@ -103,7 +103,7 @@ file
 
 
 
-2011-05-28T07:36:43.000000Z
+2011-07-12T16:57:22.000000Z
 7ce860e12412ea793cb0f9c0182337cc
 2011-01-26T19:10:08.847345Z
 15330

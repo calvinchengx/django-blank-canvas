@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/svn/!svn/ver/16286/django/trunk/django/template
+/svn/!svn/ver/16410/django/trunk/django/template
 END
 base.py
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/16149/django/trunk/django/template/base.py
+/svn/!svn/ver/16374/django/trunk/django/template/base.py
 END
 defaultfilters.py
 K 25
@@ -31,7 +31,7 @@ defaulttags.py
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/16172/django/trunk/django/template/defaulttags.py
+/svn/!svn/ver/16410/django/trunk/django/template/defaulttags.py
 END
 context.py
 K 25

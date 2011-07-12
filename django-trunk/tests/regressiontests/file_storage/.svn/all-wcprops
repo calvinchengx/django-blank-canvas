@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/!svn/ver/16280/django/trunk/tests/regressiontests/file_storage
+/svn/!svn/ver/16287/django/trunk/tests/regressiontests/file_storage
 END
 test.png
 K 25
@@ -25,7 +25,7 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/svn/!svn/ver/16280/django/trunk/tests/regressiontests/file_storage/tests.py
+/svn/!svn/ver/16287/django/trunk/tests/regressiontests/file_storage/tests.py
 END
 models.py
 K 25

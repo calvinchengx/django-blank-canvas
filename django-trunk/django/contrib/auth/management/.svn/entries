@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/auth/management
 http://code.djangoproject.com/svn
 
@@ -35,7 +35,7 @@ file
 
 
 
-2011-05-28T07:36:15.000000Z
+2011-07-12T16:57:06.000000Z
 dcc6fa0eb3577243e46887477e773bd3
 2011-05-09T01:10:40.596027Z
 16182

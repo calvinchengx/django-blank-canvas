@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/modeltests/proxy_models/fixtures
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:37.000000Z
+2011-07-12T16:57:18.000000Z
 2380a6eb666c44f55b2fdf529d7b155f
 2009-06-08T13:35:39.542749Z
 10955

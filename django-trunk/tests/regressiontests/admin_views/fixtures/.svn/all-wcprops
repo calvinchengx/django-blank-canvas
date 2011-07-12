@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/!svn/ver/16069/django/trunk/tests/regressiontests/admin_views/fixtures
+/svn/!svn/ver/16527/django/trunk/tests/regressiontests/admin_views/fixtures
 END
 multiple-child-classes.json
 K 25
@@ -61,5 +61,5 @@ admin-views-books.xml
 K 25
 svn:wc:ra_dav:version-url
 V 97
-/svn/!svn/ver/14674/django/trunk/tests/regressiontests/admin_views/fixtures/admin-views-books.xml
+/svn/!svn/ver/16527/django/trunk/tests/regressiontests/admin_views/fixtures/admin-views-books.xml
 END

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/svn/!svn/ver/16016/django/trunk/django/contrib/gis/db/backends/spatialite
+/svn/!svn/ver/16515/django/trunk/django/contrib/gis/db/backends/spatialite
 END
 base.py
 K 25
@@ -49,5 +49,5 @@ creation.py
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/svn/!svn/ver/15005/django/trunk/django/contrib/gis/db/backends/spatialite/creation.py
+/svn/!svn/ver/16515/django/trunk/django/contrib/gis/db/backends/spatialite/creation.py
 END

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/!svn/ver/16267/django/trunk/tests/regressiontests/file_uploads
+/svn/!svn/ver/16479/django/trunk/tests/regressiontests/file_uploads
 END
 views.py
 K 25
@@ -19,7 +19,7 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/svn/!svn/ver/16267/django/trunk/tests/regressiontests/file_uploads/tests.py
+/svn/!svn/ver/16479/django/trunk/tests/regressiontests/file_uploads/tests.py
 END
 uploadhandler.py
 K 25

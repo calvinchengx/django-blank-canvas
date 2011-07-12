@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16425/django/trunk/django/contrib/formtools/wizard
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/16398/django/trunk/django/contrib/formtools/wizard/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/16307/django/trunk/django/contrib/formtools/wizard/__init__.py
+END
+legacy.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/16307/django/trunk/django/contrib/formtools/wizard/legacy.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/16307/django/trunk/django/contrib/formtools/wizard/forms.py
+END

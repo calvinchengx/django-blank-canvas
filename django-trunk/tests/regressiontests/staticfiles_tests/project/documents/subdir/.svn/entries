@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/staticfiles_tests/project/documents/subdir
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:44.000000Z
+2011-07-12T16:57:22.000000Z
 b3eff404e5bb728a3ac7ee2ee343d543
 2010-10-20T01:33:24.424771Z
 14293

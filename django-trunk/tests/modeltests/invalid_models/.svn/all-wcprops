@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/15094/django/trunk/tests/modeltests/invalid_models
+/svn/!svn/ver/16493/django/trunk/tests/modeltests/invalid_models
 END
 __init__.py
 K 25
@@ -13,5 +13,5 @@ models.py
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/svn/!svn/ver/15094/django/trunk/tests/modeltests/invalid_models/models.py
+/svn/!svn/ver/16493/django/trunk/tests/modeltests/invalid_models/models.py
 END

@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/16261/django/trunk/django/contrib/contenttypes
+/svn/!svn/ver/16419/django/trunk/django/contrib/contenttypes
 END
 generic.py
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/svn/!svn/ver/16234/django/trunk/django/contrib/contenttypes/generic.py
+/svn/!svn/ver/16419/django/trunk/django/contrib/contenttypes/generic.py
 END
 management.py
 K 25

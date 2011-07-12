@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/sites_framework
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:47.000000Z
+2011-07-12T16:57:25.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2010-10-18T04:56:27.456234Z
 14251
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:47.000000Z
+2011-07-12T16:57:25.000000Z
 54da205fd26e49acb0bf2ad515da19e8
 2010-10-18T04:56:27.456234Z
 14251
@@ -100,7 +100,7 @@ file
 
 
 
-2011-05-28T07:36:47.000000Z
+2011-07-12T16:57:25.000000Z
 e741fa6c63a6fb32eac50e931fefc250
 2010-10-18T04:56:27.456234Z
 14251

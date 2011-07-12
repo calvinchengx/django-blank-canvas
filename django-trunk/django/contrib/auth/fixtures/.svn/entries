@@ -1,15 +1,15 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/auth/fixtures
 http://code.djangoproject.com/svn
 
 
 
-2011-04-02T08:44:47.178363Z
-15990
-russellm
+2011-06-28T13:42:46.836226Z
+16482
+jezdez
 
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:15.000000Z
+2011-07-12T16:57:06.000000Z
 c928e47b0cbe937a7939a7582a1be9a5
 2011-04-02T08:44:47.178363Z
 15990
@@ -66,44 +66,10 @@ file
 
 
 
-2011-05-28T07:36:15.000000Z
-d06809b1eadef6effd15d61b980bc960
-2008-06-30T13:11:12.643869Z
-7808
-russellm
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1785
-
-permissionstestdata.json
-file
-
-
-
-
-2011-05-28T07:36:15.000000Z
-517ceec6786ba98d881005d5401830f0
-2010-12-12T22:59:28.843149Z
-14891
+2011-07-12T16:57:06.000000Z
+4a7dba32ad63bd76d1b3e5e8b628abd2
+2011-06-19T11:24:39.109553Z
+16438
 jezdez
 
 
@@ -126,5 +92,5 @@ jezdez
 
 
 
-7528
+1785
 

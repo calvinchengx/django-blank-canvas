@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/admindocs/tests
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:11.000000Z
+2011-07-12T16:57:04.000000Z
 30963fb69a3fbf238afd46a954d5a30d
 2010-10-11T12:55:17.411282Z
 14139
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:36:11.000000Z
+2011-07-12T16:57:04.000000Z
 6195b3e2d0ab50ac8d0b554c234de40d
 2009-12-16T18:13:34.775397Z
 11878

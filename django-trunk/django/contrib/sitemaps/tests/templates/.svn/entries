@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/sitemaps/tests/templates
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:35:38.000000Z
+2011-07-12T16:56:50.000000Z
 ecf39dc1300fd5cc05ab68836d03b7b8
 2010-12-12T22:56:29.299038Z
 14883
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:35:38.000000Z
+2011-07-12T16:56:50.000000Z
 2b4617df19f7485189e5d75158777409
 2010-12-12T22:56:29.299038Z
 14883

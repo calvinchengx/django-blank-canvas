@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/tests/regressiontests/aggregation_regress/fixtures
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:36:41.000000Z
+2011-07-12T16:57:20.000000Z
 e228fe0eb2770dcd72d11694a24aac9b
 2009-04-08T13:19:48.618364Z
 10446

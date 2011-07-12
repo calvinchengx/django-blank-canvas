@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/16066/django/trunk/tests/regressiontests/localflavor
+/svn/!svn/ver/16385/django/trunk/tests/regressiontests/localflavor
 END
 __init__.py
 K 25
@@ -13,7 +13,7 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/!svn/ver/16066/django/trunk/tests/regressiontests/localflavor/tests.py
+/svn/!svn/ver/16385/django/trunk/tests/regressiontests/localflavor/tests.py
 END
 models.py
 K 25

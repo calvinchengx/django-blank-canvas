@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/svn/!svn/ver/16255/django/trunk/docs/ref/contrib
+/svn/!svn/ver/16536/django/trunk/docs/ref/contrib
 END
 auth.txt
 K 25
@@ -13,7 +13,7 @@ localflavor.txt
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/16147/django/trunk/docs/ref/contrib/localflavor.txt
+/svn/!svn/ver/16495/django/trunk/docs/ref/contrib/localflavor.txt
 END
 flatpages.txt
 K 25
@@ -25,25 +25,25 @@ messages.txt
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/15975/django/trunk/docs/ref/contrib/messages.txt
+/svn/!svn/ver/16290/django/trunk/docs/ref/contrib/messages.txt
 END
 index.txt
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/15055/django/trunk/docs/ref/contrib/index.txt
+/svn/!svn/ver/16290/django/trunk/docs/ref/contrib/index.txt
 END
 webdesign.txt
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/13608/django/trunk/docs/ref/contrib/webdesign.txt
+/svn/!svn/ver/16289/django/trunk/docs/ref/contrib/webdesign.txt
 END
 staticfiles.txt
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/16235/django/trunk/docs/ref/contrib/staticfiles.txt
+/svn/!svn/ver/16509/django/trunk/docs/ref/contrib/staticfiles.txt
 END
 humanize.txt
 K 25
@@ -67,7 +67,7 @@ sitemaps.txt
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/15055/django/trunk/docs/ref/contrib/sitemaps.txt
+/svn/!svn/ver/16476/django/trunk/docs/ref/contrib/sitemaps.txt
 END
 sites.txt
 K 25
@@ -85,13 +85,13 @@ csrf.txt
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/16255/django/trunk/docs/ref/contrib/csrf.txt
+/svn/!svn/ver/16361/django/trunk/docs/ref/contrib/csrf.txt
 END
 contenttypes.txt
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/16113/django/trunk/docs/ref/contrib/contenttypes.txt
+/svn/!svn/ver/16536/django/trunk/docs/ref/contrib/contenttypes.txt
 END
 markup.txt
 K 25

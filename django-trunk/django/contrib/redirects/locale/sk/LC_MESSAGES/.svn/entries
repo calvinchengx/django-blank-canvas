@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/redirects/locale/sk/LC_MESSAGES
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:35:36.000000Z
+2011-07-12T16:56:49.000000Z
 d829afb13f7605698afdec2c94f6d1b4
 2011-03-15T20:12:07.009063Z
 15835
@@ -66,7 +66,7 @@ file
 
 
 
-2011-05-28T07:35:36.000000Z
+2011-07-12T16:56:49.000000Z
 9538e653d7ca57e56b5a664e4bd18ff4
 2011-03-15T20:12:07.009063Z
 15835

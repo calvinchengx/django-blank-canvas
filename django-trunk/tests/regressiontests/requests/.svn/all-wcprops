@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/15938/django/trunk/tests/regressiontests/requests
+/svn/!svn/ver/16479/django/trunk/tests/regressiontests/requests
 END
 __init__.py
 K 25
@@ -13,7 +13,7 @@ tests.py
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/!svn/ver/15938/django/trunk/tests/regressiontests/requests/tests.py
+/svn/!svn/ver/16479/django/trunk/tests/regressiontests/requests/tests.py
 END
 models.py
 K 25

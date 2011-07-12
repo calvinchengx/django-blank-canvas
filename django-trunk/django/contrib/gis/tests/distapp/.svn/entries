@@ -1,7 +1,7 @@
 10
 
 dir
-16286
+16538
 http://code.djangoproject.com/svn/django/trunk/django/contrib/gis/tests/distapp
 http://code.djangoproject.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-05-28T07:35:25.000000Z
+2011-07-12T16:56:46.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2008-08-05T18:13:06.236010Z
 8219
@@ -69,7 +69,7 @@ file
 
 
 
-2011-05-28T07:35:25.000000Z
+2011-07-12T16:56:46.000000Z
 5cf0854f25e14c3dc758463dece9570e
 2010-12-02T05:58:21.051795Z
 14776
@@ -103,7 +103,7 @@ file
 
 
 
-2011-05-28T07:35:25.000000Z
+2011-07-12T16:56:46.000000Z
 dfdabec5cb3ce0fdacefcafb5d1df3ab
 2010-03-29T22:20:38.785961Z
 12885

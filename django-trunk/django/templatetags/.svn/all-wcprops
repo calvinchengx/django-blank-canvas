@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/16138/django/trunk/django/templatetags
+/svn/!svn/ver/16504/django/trunk/django/templatetags
 END
 future.py
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/14643/django/trunk/django/templatetags/future.py
+/svn/!svn/ver/16331/django/trunk/django/templatetags/future.py
 END
 l10n.py
 K 25
@@ -25,7 +25,7 @@ i18n.py
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/16138/django/trunk/django/templatetags/i18n.py
+/svn/!svn/ver/16504/django/trunk/django/templatetags/i18n.py
 END
 cache.py
 K 25
@@ -37,5 +37,5 @@ static.py
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/14592/django/trunk/django/templatetags/static.py
+/svn/!svn/ver/16487/django/trunk/django/templatetags/static.py
 END

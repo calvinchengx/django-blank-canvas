@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/16209/django/trunk/django/db/backends/sqlite3
+/svn/!svn/ver/16520/django/trunk/django/db/backends/sqlite3
 END
 base.py
 K 25
@@ -31,5 +31,5 @@ creation.py
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/svn/!svn/ver/14861/django/trunk/django/db/backends/sqlite3/creation.py
+/svn/!svn/ver/16520/django/trunk/django/db/backends/sqlite3/creation.py
 END
