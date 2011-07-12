@@ -8,8 +8,9 @@
 *.komodoproject
 .DS_Store
 local_settings.py
+proj/_thirdparty/*
 proj_public/media/files/*
 proj_public/media/app/*
 proj_public/media/tmp/*
-testerbender/log
 proj_public/media/js/admin/*_aggregated.js
+testerbender/log
